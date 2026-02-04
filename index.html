@@ -1,59 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Endfield Translation Referrer</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              gray: {
-                750: '#2d3748',
-                850: '#1a202c',
-                950: '#0d1117',
-              },
-              amber: {
-                450: '#f59e0b',
-              }
-            },
-          },
-        },
-      }
-    </script>
-    <!-- React & ReactDOM -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    
-    <!-- Babel Standalone (for JSX) -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide-react@0.344.0/dist/umd/lucide-react.min.js"></script>
-
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endfield 翻译查询工具</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
     <style>
-      ::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #1a202c; 
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #4a5568; 
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #718096; 
-      }
+        body { font-family: -apple-system, sans-serif; background: #f4f4f7; color: #333; margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        
+        .config-section { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px; background: #fafafa; padding: 15px; border-radius: 5px; }
+        .lang-group { display: flex; align-items: center; gap: 10px; }
+        .checkbox-group { display: flex; flex-wrap: wrap; gap: 10px; }
+        
+        .search-box { width: 100%; padding: 12px; font-size: 16px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        
+        .results { margin-top: 20px; }
+        .result-item { border: 1px solid #eee; margin-bottom: 10px; border-radius: 4px; overflow: hidden; cursor: pointer; transition: 0.2s; }
+        .result-item:hover { background: #f9f9f9; }
+        .result-header { padding: 10px; background: #fcfcfc; display: flex; justify-content: space-between; align-items: center; }
+        .result-header .id { color: #888; font-size: 12px; font-family: monospace; }
+        .result-header .text { flex: 1; margin-left: 15px; }
+        
+        .detail-panel { padding: 10px; background: #fff; border-top: 1px solid #eee; display: grid; gap: 10px; }
+        .lang-row { display: grid; grid-template-columns: 100px 1fr; border-bottom: 1px dashed #eee; padding: 5px 0; }
+        .lang-name { font-weight: bold; color: #555; font-size: 13px; }
+        .lang-val { white-space: pre-wrap; word-break: break-all; }
+        
+        .highlight { background: #ffeb3b; font-weight: bold; }
+        .loading { text-align: center; color: #666; padding: 20px; }
     </style>
-  </head>
-  <body class="bg-gray-950 text-gray-100 font-sans antialiased min-h-screen">
-    <div id="root"></div>
-    <!-- Main Application Script -->
-    <script type="text/babel" src="./script.js"></script>
-  </body>
+</head>
+<body>
+
+<div id="app" class="container">
+    <h2>Endfield Translation Referrer</h2>
+
+    <div class="config-section">
+        <div class="lang-group">
+            <label><b>源语言:</b></label>
+            <select v-model="sourceLang" @change="handleSourceChange">
+                <option v-for="l in allLangs" :key="l.code" :value="l.code">{{ l.name }} ({{ l.code }})</option>
+            </select>
+        </div>
+
+        <div class="lang-group">
+            <label><b>目标语言:</b></label>
+            <div class="checkbox-group">
+                <label v-for="l in allLangs" :key="l.code">
+                    <input type="checkbox" :value="l.code" v-model="targetLangs" :disabled="l.code === sourceLang">
+                    {{ l.name }}
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <input type="text" class="search-box" v-model="query" placeholder="输入内容搜索文本内容..." @input="debouncedSearch">
+
+    <div v-if="loading" class="loading">正在加载数据文件...</div>
+
+    <div class="results">
+        <div v-for="res in filteredResults" :key="res.id" class="result-item">
+            <div class="result-header" @click="toggleExpand(res.id)">
+                <span class="id">ID: {{ res.id }}</span>
+                <span class="text" v-html="highlight(res.text)"></span>
+                <span>{{ expandedIds.has(res.id) ? '▲' : '▼' }}</span>
+            </div>
+            
+            <div v-if="expandedIds.has(res.id)" class="detail-panel">
+                <div class="lang-row">
+                    <span class="lang-name">{{ getLangName(sourceLang) }}:</span>
+                    <span class="lang-val">{{ res.text }}</span>
+                </div>
+                <div v-for="tCode in targetLangs" :key="tCode" class="lang-row">
+                    <span class="lang-name">{{ getLangName(tCode) }}:</span>
+                    <span class="lang-val">{{ getOtherLangText(tCode, res.id) }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+const { createApp, ref, computed, onMounted } = Vue;
+
+createApp({
+    setup() {
+        const NAME_ID = "-4343576784152848542";
+        const allLangs = ref([
+            { code: 'CN', name: '简体中文' }, { code: 'TC', name: '繁体中文' },
+            { code: 'EN', name: 'English' }, { code: 'JP', name: '日本語' },
+            { code: 'KR', name: '한국어' }, { code: 'DE', name: 'Deutsch' },
+            { code: 'FR', name: 'Français' }, { code: 'RU', name: 'Русский' }
+        ]);
+        
+        const sourceLang = ref('CN');
+        const targetLangs = ref(['TC', 'EN', 'JP', 'KR']);
+        const query = ref('');
+        const dataCache = ref({}); // 存储所有加载的 json
+        const loading = ref(false);
+        const expandedIds = ref(new Set());
+        const filteredResults = ref([]);
+
+        // 获取语言名称
+        const getLangName = (code) => allLangs.value.find(l => l.code === code)?.name || code;
+
+        // 加载特定语言文件
+        const loadLangData = async (code) => {
+            if (dataCache.value[code]) return dataCache.value[code];
+            try {
+                const resp = await fetch(`./data/I18nTextTable_${code}.json`);
+                const data = await resp.json();
+                dataCache.value[code] = data;
+                return data;
+            } catch (e) {
+                console.error(`Failed to load ${code}`, e);
+                return null;
+            }
+        };
+
+        // 搜索逻辑
+        const doSearch = async () => {
+            if (!query.value.trim()) {
+                filteredResults.value = [];
+                return;
+            }
+            loading.value = true;
+            const sourceData = await loadLangData(sourceLang.value);
+            if (!sourceData) return;
+
+            const q = query.value.toLowerCase();
+            const matches = [];
+
+            for (const [id, text] of Object.entries(sourceData)) {
+                if (typeof text === 'string' && text.toLowerCase().includes(q) && id !== NAME_ID) {
+                    matches.push({ id, text });
+                }
+            }
+
+            // 按文本长度排序，并限制显示数量
+            filteredResults.value = matches.sort((a, b) => a.text.length - b.text.length).slice(0, 50);
+            loading.value = false;
+        };
+
+        // 防抖搜索
+        let timer;
+        const debouncedSearch = () => {
+            clearTimeout(timer);
+            timer = setTimeout(doSearch, 300);
+        };
+
+        const toggleExpand = async (id) => {
+            if (expandedIds.value.has(id)) {
+                expandedIds.value.delete(id);
+            } else {
+                // 展开时，确保所有目标语言数据已加载
+                for (const t of targetLangs.value) {
+                    await loadLangData(t);
+                }
+                expandedIds.value.add(id);
+            }
+        };
+
+        const getOtherLangText = (langCode, id) => {
+            return dataCache.value[langCode]?.[id] || "(无翻译数据)";
+        };
+
+        const highlight = (text) => {
+            if (!query.value) return text;
+            const reg = new RegExp(`(${query.value})`, 'gi');
+            return text.replace(reg, '<span class="highlight">$1</span>');
+        };
+
+        const handleSourceChange = () => {
+            // 如果源语言被勾选为目标语言，则移除它
+            targetLangs.value = targetLangs.value.filter(t => t !== sourceLang.value);
+            doSearch();
+        };
+
+        onMounted(() => {
+            // 初始化加载源语言
+            loadLangData(sourceLang.value);
+        });
+
+        return {
+            allLangs, sourceLang, targetLangs, query, loading,
+            filteredResults, expandedIds,
+            getLangName, debouncedSearch, toggleExpand, getOtherLangText, highlight, handleSourceChange
+        };
+    }
+}).mount('#app');
+</script>
+
+</body>
 </html>
