@@ -1,0 +1,42 @@
+{
+  "15": {
+    "rangeExtend": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "type": "Soil"
+  },
+  "25": {
+    "rangeExtend": {
+      "x": 2,
+      "y": 3,
+      "z": 2
+    },
+    "type": "FluidPumpIn"
+  },
+  "35": {
+    "rangeExtend": {
+      "x": 1,
+      "y": 3,
+      "z": 1
+    },
+    "type": "Sign"
+  },
+  "6": {
+    "rangeExtend": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "MachineCrafter"
+  },
+  "21": {
+    "rangeExtend": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    },
+    "type": "Battle"
+  }
+}

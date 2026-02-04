@@ -1,0 +1,26 @@
+{
+  "factech_recipe_tundra": {
+    "desc": {
+      "id": 7358068362532623094,
+      "text": null
+    },
+    "name": {
+      "id": -7026204370727365974,
+      "text": null
+    },
+    "recipeGroupId": "factech_recipe_tundra",
+    "sortId": 1
+  },
+  "factech_recipe_jinlong": {
+    "desc": {
+      "id": -3560907931320910060,
+      "text": null
+    },
+    "name": {
+      "id": 5009658661979817289,
+      "text": null
+    },
+    "recipeGroupId": "factech_recipe_jinlong",
+    "sortId": 2
+  }
+}

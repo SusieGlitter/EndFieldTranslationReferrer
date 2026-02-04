@@ -1,0 +1,26 @@
+{
+  "liquid": {
+    "iconId": "icon_port_liquid",
+    "machineModeTypeDes": {
+      "id": -6459712605601655870,
+      "text": null
+    },
+    "machineModeTypeName": {
+      "id": -3808386161719669037,
+      "text": null
+    },
+    "sortId": 2
+  },
+  "normal": {
+    "iconId": "icon_port_normal",
+    "machineModeTypeDes": {
+      "id": -139880664346902434,
+      "text": null
+    },
+    "machineModeTypeName": {
+      "id": -1513433052175505109,
+      "text": null
+    },
+    "sortId": 1
+  }
+}

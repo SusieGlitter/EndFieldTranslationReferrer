@@ -1,0 +1,128 @@
+{
+  "0": {
+    "domainPoiType": "None",
+    "icon": "",
+    "name": {
+      "id": 1407848635578830924,
+      "text": null
+    },
+    "noBackgroundIcon": "",
+    "phaseId": "",
+    "smallIcon": "",
+    "unlockSystemType": "None",
+    "unlockToastTitle": {
+      "id": 0,
+      "text": null
+    },
+    "upgradeToastIcon": "",
+    "upgradeToastTitle": {
+      "id": 0,
+      "text": null
+    }
+  },
+  "1": {
+    "domainPoiType": "Settlement",
+    "icon": "icon_domain_Manage",
+    "name": {
+      "id": 4257134894702039653,
+      "text": null
+    },
+    "noBackgroundIcon": "icon_domain_info_warfare",
+    "phaseId": "SettlementMain",
+    "smallIcon": "icon_domain_subscript_Manage",
+    "unlockSystemType": "Settlement",
+    "unlockToastTitle": {
+      "id": 0,
+      "text": null
+    },
+    "upgradeToastIcon": "",
+    "upgradeToastTitle": {
+      "id": 0,
+      "text": null
+    }
+  },
+  "2": {
+    "domainPoiType": "DomainShop",
+    "icon": "icon_domain_shop",
+    "name": {
+      "id": -3743161453472781007,
+      "text": null
+    },
+    "noBackgroundIcon": "icon_domain_info_shop",
+    "phaseId": "ShopTrade",
+    "smallIcon": "icon_domain_subscript_shop",
+    "unlockSystemType": "DomainShop",
+    "unlockToastTitle": {
+      "id": -8433441794877016989,
+      "text": null
+    },
+    "upgradeToastIcon": "title_domain_shop",
+    "upgradeToastTitle": {
+      "id": -74095688664215077,
+      "text": null
+    }
+  },
+  "3": {
+    "domainPoiType": "DomainDepot",
+    "icon": "icon_domain_storage",
+    "name": {
+      "id": 8057997334701175059,
+      "text": null
+    },
+    "noBackgroundIcon": "icon_domain_info_storage",
+    "phaseId": "DomainDepotPackage",
+    "smallIcon": "icon_domain_subscript_storage",
+    "unlockSystemType": "DomainDevelopmentDomainDepot",
+    "unlockToastTitle": {
+      "id": 3396767340376120092,
+      "text": null
+    },
+    "upgradeToastIcon": "title_depot",
+    "upgradeToastTitle": {
+      "id": 3799056779145778245,
+      "text": null
+    }
+  },
+  "4": {
+    "domainPoiType": "KiteStation",
+    "icon": "icon_domain_kite_warfare",
+    "name": {
+      "id": 7280776804276681338,
+      "text": null
+    },
+    "noBackgroundIcon": "icon_domain_info_kite",
+    "phaseId": "KiteStation",
+    "smallIcon": "icon_domain_subscript_kite_warfare",
+    "unlockSystemType": "None",
+    "unlockToastTitle": {
+      "id": -10685539068576826,
+      "text": null
+    },
+    "upgradeToastIcon": "title_kitestation",
+    "upgradeToastTitle": {
+      "id": 3467812832235856231,
+      "text": null
+    }
+  },
+  "5": {
+    "domainPoiType": "RecycleBin",
+    "icon": "",
+    "name": {
+      "id": -4836129701012734250,
+      "text": null
+    },
+    "noBackgroundIcon": "",
+    "phaseId": "",
+    "smallIcon": "",
+    "unlockSystemType": "None",
+    "unlockToastTitle": {
+      "id": -1255478167807355643,
+      "text": null
+    },
+    "upgradeToastIcon": "title_recycle",
+    "upgradeToastTitle": {
+      "id": -6113610784800492282,
+      "text": null
+    }
+  }
+}

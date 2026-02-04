@@ -1,0 +1,234 @@
+{
+  "domain_1_lv006_depot_1": {
+    "packValueList": [
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 3000,
+        "minLimit": 1000
+      },
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 6000,
+        "minLimit": 3001
+      },
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "LargePack",
+        "maxLimit": 13000,
+        "minLimit": 6001
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 3000,
+        "minLimit": 1000
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 6000,
+        "minLimit": 3001
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "LargePack",
+        "maxLimit": 13000,
+        "minLimit": 6001
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 3000,
+        "minLimit": 1000
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 6000,
+        "minLimit": 3001
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "LargePack",
+        "maxLimit": 13000,
+        "minLimit": 6001
+      }
+    ]
+  },
+  "domain_1_lv007_depot_1": {
+    "packValueList": [
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 3000,
+        "minLimit": 1000
+      },
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 7000,
+        "minLimit": 3001
+      },
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "LargePack",
+        "maxLimit": 14000,
+        "minLimit": 7001
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 3000,
+        "minLimit": 1000
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 7000,
+        "minLimit": 3001
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "LargePack",
+        "maxLimit": 14000,
+        "minLimit": 7001
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 3000,
+        "minLimit": 1000
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 7000,
+        "minLimit": 3001
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "LargePack",
+        "maxLimit": 14000,
+        "minLimit": 7001
+      }
+    ]
+  },
+  "domain_1_lv005_depot_1": {
+    "packValueList": [
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 3000,
+        "minLimit": 1000
+      },
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 5000,
+        "minLimit": 3001
+      },
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "LargePack",
+        "maxLimit": 8000,
+        "minLimit": 5001
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 3000,
+        "minLimit": 1000
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 5000,
+        "minLimit": 3001
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "LargePack",
+        "maxLimit": 8000,
+        "minLimit": 5001
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 3000,
+        "minLimit": 1000
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 5000,
+        "minLimit": 3001
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "LargePack",
+        "maxLimit": 8000,
+        "minLimit": 5001
+      }
+    ]
+  },
+  "domain_2_lv002_depot_1": {
+    "packValueList": [
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 1500,
+        "minLimit": 500
+      },
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 6000,
+        "minLimit": 1501
+      },
+      {
+        "deliverItemType": "NaturalResource",
+        "deliverPackType": "LargePack",
+        "maxLimit": 20000,
+        "minLimit": 6001
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 1500,
+        "minLimit": 500
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 6000,
+        "minLimit": 1501
+      },
+      {
+        "deliverItemType": "Industry",
+        "deliverPackType": "LargePack",
+        "maxLimit": 20000,
+        "minLimit": 6001
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "SmallPack",
+        "maxLimit": 1500,
+        "minLimit": 500
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "MediumPack",
+        "maxLimit": 6000,
+        "minLimit": 1501
+      },
+      {
+        "deliverItemType": "Misc",
+        "deliverPackType": "LargePack",
+        "maxLimit": 20000,
+        "minLimit": 6001
+      }
+    ]
+  }
+}

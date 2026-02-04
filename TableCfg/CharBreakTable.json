@@ -1,0 +1,55 @@
+{
+  "0": {
+    "availableExpItems": [
+      "item_expcard_stage1_low",
+      "item_expcard_stage1_mid",
+      "item_expcard_stage1_high"
+    ],
+    "breakStatus": 0,
+    "expType": "ExpTypeJunior",
+    "goldCost": -1,
+    "maxLevel": 20
+  },
+  "1": {
+    "availableExpItems": [
+      "item_expcard_stage1_low",
+      "item_expcard_stage1_mid",
+      "item_expcard_stage1_high"
+    ],
+    "breakStatus": 2,
+    "expType": "ExpTypeJunior",
+    "goldCost": 305,
+    "maxLevel": 40
+  },
+  "2": {
+    "availableExpItems": [
+      "item_expcard_stage1_low",
+      "item_expcard_stage1_mid",
+      "item_expcard_stage1_high"
+    ],
+    "breakStatus": 1,
+    "expType": "ExpTypeJunior",
+    "goldCost": 1601,
+    "maxLevel": 60
+  },
+  "3": {
+    "availableExpItems": [
+      "item_expcard_stage2_low",
+      "item_expcard_stage2_high"
+    ],
+    "breakStatus": 2,
+    "expType": "ExpTypeSenior",
+    "goldCost": 1781,
+    "maxLevel": 80
+  },
+  "4": {
+    "availableExpItems": [
+      "item_expcard_stage2_low",
+      "item_expcard_stage2_high"
+    ],
+    "breakStatus": 2,
+    "expType": "ExpTypeSenior",
+    "goldCost": 1781,
+    "maxLevel": 90
+  }
+}

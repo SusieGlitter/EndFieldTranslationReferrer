@@ -1,0 +1,2532 @@
+{
+  "sns_chr_weila": {
+    "charGender": "None",
+    "chatId": "sns_chr_weila",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -247445793386786431,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_zophiel_perlica_chen": {
+    "charGender": "None",
+    "chatId": "sns_chat_zophiel_perlica_chen",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_group_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_group_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 774142975131526253,
+      "text": null
+    },
+    "owner": "sns_chr_0017_zophiel",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "Official"
+  },
+  "sns_npc_tiemaozi": {
+    "charGender": "None",
+    "chatId": "sns_npc_tiemaozi",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -913411204693392227,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_jingjie": {
+    "charGender": "None",
+    "chatId": "sns_npc_jingjie",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -218320576232964948,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0009_azrila": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0009_azrila",
+    "chatType": "Char",
+    "desc": {
+      "id": -5125773502419037994,
+      "text": null
+    },
+    "icon": "icon_round_chr_0009_azrila",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0009_azrila",
+    "memberRawNum": 0,
+    "name": {
+      "id": -8154620782362745612,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_klapa": {
+    "charGender": "None",
+    "chatId": "sns_npc_klapa",
+    "chatType": "Normal",
+    "desc": {
+      "id": -3817442808914672910,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 351749588553923259,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "npc_gentleman_rfg_b_05_g01": {
+    "charGender": "Male",
+    "chatId": "npc_gentleman_rfg_b_05_g01",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_suosi_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_suosi_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 5434480287787237639,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_Oldhans": {
+    "charGender": "None",
+    "chatId": "sns_npc_Oldhans",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_hansi_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_hansi_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 5044769526804095686,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_joost": {
+    "charGender": "None",
+    "chatId": "sns_npc_joost",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -8974816156020629313,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_lianxiaowu": {
+    "charGender": "None",
+    "chatId": "sns_npc_lianxiaowu",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 8305226480619171313,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_qingwu": {
+    "charGender": "None",
+    "chatId": "sns_npc_qingwu",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_muhui_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_muhui_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 4813681552651263434,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_kelao": {
+    "charGender": "Male",
+    "chatId": "sns_npc_kelao",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_kelao_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_kelao_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": -2721356965908582490,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_hatman": {
+    "charGender": "None",
+    "chatId": "sns_npc_hatman",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_hateman_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_hateman_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 5086959972696872556,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_EnfDepartmentManager": {
+    "charGender": "None",
+    "chatId": "sns_npc_EnfDepartmentManager",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 2308532559492841590,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_nroman": {
+    "charGender": "None",
+    "chatId": "sns_npc_nroman",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6825868504284018477,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_avywen_l": {
+    "charGender": "None",
+    "chatId": "sns_chat_avywen_l",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_group_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_group_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -2319561376709352090,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0018_dapan": {
+    "charGender": "Male",
+    "chatId": "sns_chr_0018_dapan",
+    "chatType": "Char",
+    "desc": {
+      "id": -598519621776276763,
+      "text": null
+    },
+    "icon": "icon_round_chr_0018_dapan",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0018_dapan",
+    "memberRawNum": 0,
+    "name": {
+      "id": -195622397068898953,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_nfm_0": {
+    "charGender": "None",
+    "chatId": "sns_chat_nfm_0",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": true,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6143475423331500254,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_hongbo": {
+    "charGender": "None",
+    "chatId": "sns_npc_hongbo",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_hongbo_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_hongbo_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 2103101740998253590,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_Johns": {
+    "charGender": "None",
+    "chatId": "sns_npc_Johns",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 1489895197265020042,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0003_endmin": {
+    "charGender": "None",
+    "chatId": "sns_chr_0003_endmin",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0003_endminf",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0003_endminf",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6135236239832454368,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_Seraph_perlica": {
+    "charGender": "None",
+    "chatId": "sns_chat_Seraph_perlica",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_group_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_group_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -1593993033281596017,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_four": {
+    "charGender": "None",
+    "chatId": "sns_npc_four",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_sns_endfield_group_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_sns_endfield_group_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -8765906459352266555,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0026_lastrite": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0026_lastrite",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0026_lastrite",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0026_lastrite",
+    "memberRawNum": 0,
+    "name": {
+      "id": 3899710878142805409,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_mifu": {
+    "charGender": "Female",
+    "chatId": "sns_npc_mifu",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0031_mifu",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0031_mifu",
+    "memberRawNum": 0,
+    "name": {
+      "id": -7966731995239507598,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_saveTATA": {
+    "charGender": "None",
+    "chatId": "sns_chat_saveTATA",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_sns_endfield_group_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_sns_endfield_group_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 5750378861759906324,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_aliya": {
+    "charGender": "Female",
+    "chatId": "sns_npc_aliya",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_aliya_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_aliya_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 9025010712467940001,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0006_wolfgd": {
+    "charGender": "Male",
+    "chatId": "sns_chr_0006_wolfgd",
+    "chatType": "Char",
+    "desc": {
+      "id": -6393940177255687336,
+      "text": null
+    },
+    "icon": "icon_round_chr_0006_wolfgd",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0006_wolfgd",
+    "memberRawNum": 0,
+    "name": {
+      "id": -8698334422262304612,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0017_zophiel": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0017_zophiel",
+    "chatType": "Char",
+    "desc": {
+      "id": 8564391170168311787,
+      "text": null
+    },
+    "icon": "icon_round_chr_0017_yvonne",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0017_yvonne",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6559250326583830294,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0020_meurs": {
+    "charGender": "Male",
+    "chatId": "sns_chr_0020_meurs",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0020_meurs",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0020_meurs",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6600261085566053147,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0012_avywen": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0012_avywen",
+    "chatType": "Char",
+    "desc": {
+      "id": 2602804737842046846,
+      "text": null
+    },
+    "icon": "icon_round_chr_0012_avywen",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0012_avywen",
+    "memberRawNum": 0,
+    "name": {
+      "id": -2501934175966810801,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0002_endmin": {
+    "charGender": "None",
+    "chatId": "sns_chr_0002_endmin",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0002_endminm",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0002_endminm",
+    "memberRawNum": 0,
+    "name": {
+      "id": 9070720742684453436,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0021_whiten": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0021_whiten",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0021_whiten",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0021_whiten",
+    "memberRawNum": 0,
+    "name": {
+      "id": -2951177251258731887,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_nfm_l_1": {
+    "charGender": "None",
+    "chatId": "sns_chat_nfm_l_1",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": true,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -4157601206981265421,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_camille": {
+    "charGender": "Male",
+    "chatId": "sns_npc_camille",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -4852246468238957812,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_ailikesongshangmao": {
+    "charGender": "None",
+    "chatId": "sns_npc_ailikesongshangmao",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 3190723109460036640,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_huasuo": {
+    "charGender": "None",
+    "chatId": "sns_npc_huasuo",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -5166636515254936065,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_nfm_l_2": {
+    "charGender": "None",
+    "chatId": "sns_chat_nfm_l_2",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": true,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -757790636075287150,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0022_bounda": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0022_bounda",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0022_bounda",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0022_bounda",
+    "memberRawNum": 0,
+    "name": {
+      "id": -7776425064023234263,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0024_deepfin": {
+    "charGender": "Male",
+    "chatId": "sns_chr_0024_deepfin",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0024_deepfin",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0024_deepfin",
+    "memberRawNum": 0,
+    "name": {
+      "id": 5691060096093070830,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_dunn": {
+    "charGender": "Male",
+    "chatId": "sns_npc_dunn",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 8198742354440048396,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_yueyisheng": {
+    "charGender": "Male",
+    "chatId": "sns_npc_yueyisheng",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6568397421857658457,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_boy_hsfarmer_a_01": {
+    "charGender": "None",
+    "chatId": "sns_npc_boy_hsfarmer_a_01",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 4043383233761277426,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_kls_m": {
+    "charGender": "Male",
+    "chatId": "sns_npc_kls_m",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_fabian_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_fabian_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 9114446338473919993,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_nfm_0_1": {
+    "charGender": "None",
+    "chatId": "sns_chat_nfm_0_1",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": true,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 7680538095783341889,
+      "text": null
+    },
+    "owner": "npc_gentleman_rfg_b_05_g01",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0013_aglina": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0013_aglina",
+    "chatType": "Char",
+    "desc": {
+      "id": 8323215350176372468,
+      "text": null
+    },
+    "icon": "icon_round_chr_0013_aglina",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0013_aglina",
+    "memberRawNum": 0,
+    "name": {
+      "id": -2353817873067082386,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_test": {
+    "charGender": "None",
+    "chatId": "sns_chat_test",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 0,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_ailikesongshangmaoy": {
+    "charGender": "None",
+    "chatId": "sns_npc_ailikesongshangmaoy",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_yalishanda_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_yalishanda_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": -3933848932799601397,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0011_seraph": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0011_seraph",
+    "chatType": "Char",
+    "desc": {
+      "id": -3403866352588081265,
+      "text": null
+    },
+    "icon": "icon_round_chr_0011_seraph",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0011_seraph",
+    "memberRawNum": 0,
+    "name": {
+      "id": 6629410500495612008,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_kelaiweier": {
+    "charGender": "None",
+    "chatId": "sns_npc_kelaiweier",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -2584702891901122923,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_3012_g01": {
+    "charGender": "None",
+    "chatId": "sns_npc_3012_g01",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_lakuier_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_lakuier_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 6173935516767800858,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_unknown": {
+    "charGender": "None",
+    "chatId": "sns_npc_unknown",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -7052922464759294960,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_nfm_l": {
+    "charGender": "None",
+    "chatId": "sns_chat_nfm_l",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": true,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -4876749848705054104,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0004_pelica": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0004_pelica",
+    "chatType": "Char",
+    "desc": {
+      "id": 6993307987496016318,
+      "text": null
+    },
+    "icon": "icon_round_chr_0004_pelica",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0004_pelica",
+    "memberRawNum": 0,
+    "name": {
+      "id": -5734636210724128867,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_kls_f": {
+    "charGender": "Female",
+    "chatId": "sns_npc_kls_f",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_ailaizha_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_ailaizha_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": -1689053617833066652,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0014_aurora": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0014_aurora",
+    "chatType": "Char",
+    "desc": {
+      "id": 9041553028521426298,
+      "text": null
+    },
+    "icon": "icon_round_chr_0014_aurora",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0014_aurora",
+    "memberRawNum": 0,
+    "name": {
+      "id": 2501135224699072684,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0015_lifeng": {
+    "charGender": "Male",
+    "chatId": "sns_chr_0015_lifeng",
+    "chatType": "Char",
+    "desc": {
+      "id": 2480716626472044843,
+      "text": null
+    },
+    "icon": "icon_round_chr_0015_lifeng",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0015_lifeng",
+    "memberRawNum": 0,
+    "name": {
+      "id": 2155251179753875661,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_angelu_sm1l7m1_01": {
+    "charGender": "None",
+    "chatId": "sns_chr_angelu_sm1l7m1_01",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_angelu_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_angelu_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6506502201006809271,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_dajiang": {
+    "charGender": "None",
+    "chatId": "sns_npc_dajiang",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 6439507857537140172,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_madina": {
+    "charGender": "None",
+    "chatId": "sns_npc_madina",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_madina_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_madina_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 1945568296087726533,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_team_qingbozhai": {
+    "charGender": "None",
+    "chatId": "sns_team_qingbozhai",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": true,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 4973501620907197465,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_lunan": {
+    "charGender": "None",
+    "chatId": "sns_npc_lunan",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 539077706549383787,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_shaman": {
+    "charGender": "None",
+    "chatId": "sns_npc_shaman",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -5021182172743513309,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0016_laevat": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0016_laevat",
+    "chatType": "Char",
+    "desc": {
+      "id": 1281434378100723981,
+      "text": null
+    },
+    "icon": "icon_round_chr_0016_laevat",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0016_laevat",
+    "memberRawNum": 0,
+    "name": {
+      "id": -7981416097513378905,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_liu_gm02m12": {
+    "charGender": "None",
+    "chatId": "sns_npc_liu_gm02m12",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 6343011881051796176,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_daniel": {
+    "charGender": "None",
+    "chatId": "sns_chat_daniel",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_dannier_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_dannier_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 7522835760708248687,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_zhihuibu": {
+    "charGender": "None",
+    "chatId": "sns_npc_zhihuibu",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": true,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 3090222998688978,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_f1m7d2_2": {
+    "charGender": "None",
+    "chatId": "sns_chat_f1m7d2_2",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 4645601220256393142,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0007_ikut": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0007_ikut",
+    "chatType": "Char",
+    "desc": {
+      "id": 5329457606368712035,
+      "text": null
+    },
+    "icon": "icon_round_chr_0007_ikut",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0007_ikut",
+    "memberRawNum": 0,
+    "name": {
+      "id": -3151889249462684554,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_roman": {
+    "charGender": "None",
+    "chatId": "sns_chat_roman",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_luoman_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_luoman_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6759639185723093589,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0028_wulfa": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0028_wulfa",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0028_wulfa",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0028_wulfa",
+    "memberRawNum": 0,
+    "name": {
+      "id": 5667467622938341042,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_yindong": {
+    "charGender": "None",
+    "chatId": "sns_npc_yindong",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6305183303644376074,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_System": {
+    "charGender": "None",
+    "chatId": "sns_npc_System",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 927979883323040243,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_aji": {
+    "charGender": "None",
+    "chatId": "sns_npc_aji",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -1641203835621102351,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_po": {
+    "charGender": "None",
+    "chatId": "sns_npc_po",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -7932982238694985252,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0005_chen": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0005_chen",
+    "chatType": "Char",
+    "desc": {
+      "id": -1850770107188051377,
+      "text": null
+    },
+    "icon": "icon_round_chr_0005_chen",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0005_chen",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6341711306797150373,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_sartre": {
+    "charGender": "None",
+    "chatId": "sns_npc_sartre",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 6269411078670185960,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0019_karin": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0019_karin",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0019_karin",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0019_karin",
+    "memberRawNum": 0,
+    "name": {
+      "id": -3770975429678878491,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_kelao_g": {
+    "charGender": "None",
+    "chatId": "sns_npc_kelao_g",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_sns_endfield_group_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_sns_endfield_group_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 4550928743435280166,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_adu": {
+    "charGender": "None",
+    "chatId": "sns_chat_adu",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single",
+    "memberRawNum": 0,
+    "name": {
+      "id": -8741932866401018489,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0027_tangtang": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0027_tangtang",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0027_tangtang",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0027_tangtang",
+    "memberRawNum": 0,
+    "name": {
+      "id": -1675799212460637731,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_group_sm1l7m1_02": {
+    "charGender": "None",
+    "chatId": "sns_chr_group_sm1l7m1_02",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 3589013880867595358,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_nfm": {
+    "charGender": "None",
+    "chatId": "sns_npc_nfm",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_nufuman_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_nufuman_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 3018807230216927697,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_linmuxiang": {
+    "charGender": "None",
+    "chatId": "sns_npc_linmuxiang",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -4991096438555482531,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_suofeiya": {
+    "charGender": "None",
+    "chatId": "sns_npc_suofeiya",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "con_sns_npc_single",
+    "isSettlementChannel": false,
+    "listIcon": "con_sns_npc_single",
+    "memberRawNum": 0,
+    "name": {
+      "id": 7740207127205272274,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_team_Enf": {
+    "charGender": "None",
+    "chatId": "sns_team_Enf",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_sns_endfield_group_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_sns_endfield_group_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -4862165921529550010,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_chen_perlica": {
+    "charGender": "None",
+    "chatId": "sns_chat_chen_perlica",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_group_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_group_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -2413516555488015638,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_Alexander": {
+    "charGender": "None",
+    "chatId": "sns_npc_Alexander",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_yalishanda_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_yalishanda_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": -7859397221086078377,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0029_pograni": {
+    "charGender": "Male",
+    "chatId": "sns_chr_0029_pograni",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0029_pograni",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0029_pograni",
+    "memberRawNum": 0,
+    "name": {
+      "id": 2228445934023772431,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_Nobody": {
+    "charGender": "None",
+    "chatId": "sns_npc_Nobody",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -6997338456761199233,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_ardelia": {
+    "charGender": "Female",
+    "chatId": "sns_chr_ardelia",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0025_ardelia",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0025_ardelia",
+    "memberRawNum": 0,
+    "name": {
+      "id": -8151389194168400788,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_lameng": {
+    "charGender": "None",
+    "chatId": "sns_npc_lameng",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_lameng_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_lameng_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": -4836249635778188318,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_xiaona_sm1l7m1_03": {
+    "charGender": "Female",
+    "chatId": "sns_chr_xiaona_sm1l7m1_03",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_xiaona_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_xiaona_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 3374111680623448407,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_fiona": {
+    "charGender": "Female",
+    "chatId": "sns_npc_fiona",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_spl_fiona_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_spl_fiona_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": -8290375307184864,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_andrew": {
+    "charGender": "Male",
+    "chatId": "sns_npc_andrew",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_andrew_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_andrew_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": -5374453410542673313,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_npc_boy_efstaff_a_02": {
+    "charGender": "None",
+    "chatId": "sns_npc_npc_boy_efstaff_a_02",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 7200274367101921133,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_team_hub_01": {
+    "charGender": "None",
+    "chatId": "sns_team_hub_01",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -1168910755968699791,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_team_busnisses": {
+    "charGender": "None",
+    "chatId": "sns_team_busnisses",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_sns_endfield_group_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_sns_endfield_group_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -7207580000303255838,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_muhui": {
+    "charGender": "None",
+    "chatId": "sns_npc_muhui",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -8820289334895278384,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_muxi": {
+    "charGender": "None",
+    "chatId": "sns_npc_muxi",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -4214807229716170356,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0030_zhuangfy": {
+    "charGender": "Female",
+    "chatId": "sns_chr_0030_zhuangfy",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0030_zhuangfy",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0030_zhuangfy",
+    "memberRawNum": 0,
+    "name": {
+      "id": 2993442492314710420,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chat_end_f1m4": {
+    "charGender": "None",
+    "chatId": "sns_chat_end_f1m4",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 0,
+      "text": null
+    },
+    "owner": "sns_chr_0004_pelica",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "Official"
+  },
+  "sns_gm01m7_1": {
+    "charGender": "None",
+    "chatId": "sns_gm01m7_1",
+    "chatType": "Group",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_channel_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_channel_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -4657433111941673884,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_helao": {
+    "charGender": "None",
+    "chatId": "sns_npc_helao",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_helao_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_helao_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": -4079267456278409997,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_S.O.W.": {
+    "charGender": "None",
+    "chatId": "sns_npc_S.O.W.",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 3811362477324461709,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_qinjc": {
+    "charGender": "Female",
+    "chatId": "sns_npc_qinjc",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_qinjc_01",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_qinjc_01",
+    "memberRawNum": 0,
+    "name": {
+      "id": 2816134162426781103,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0023_antal": {
+    "charGender": "Male",
+    "chatId": "sns_chr_0023_antal",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0023_antal",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0023_antal",
+    "memberRawNum": 0,
+    "name": {
+      "id": 4521887867331412990,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_jite": {
+    "charGender": "None",
+    "chatId": "sns_chr_jite",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": 4769284687546405212,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_chr_0008_kholec": {
+    "charGender": "Male",
+    "chatId": "sns_chr_0008_kholec",
+    "chatType": "Char",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_round_chr_0008_kholec",
+    "isSettlementChannel": false,
+    "listIcon": "icon_round_chr_0008_kholec",
+    "memberRawNum": 0,
+    "name": {
+      "id": 2457300169446190820,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  },
+  "sns_npc_gentleman_efscholar_a_04": {
+    "charGender": "None",
+    "chatId": "sns_npc_gentleman_efscholar_a_04",
+    "chatType": "Normal",
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "icon": "icon_sns_npc_single_a",
+    "isSettlementChannel": false,
+    "listIcon": "icon_sns_npc_single_a",
+    "memberRawNum": 0,
+    "name": {
+      "id": -3604462381770814254,
+      "text": null
+    },
+    "owner": "",
+    "tagLabel": {
+      "id": 0,
+      "text": null
+    },
+    "tagType": "None"
+  }
+}

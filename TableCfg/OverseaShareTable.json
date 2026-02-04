@@ -1,0 +1,120 @@
+{
+  "0": {
+    "envLang": "CN",
+    "shareChannelIdList": [
+      0,
+      10,
+      11,
+      12,
+      17
+    ]
+  },
+  "1": {
+    "envLang": "EN",
+    "shareChannelIdList": [
+      0,
+      10,
+      11,
+      12,
+      17
+    ]
+  },
+  "2": {
+    "envLang": "JP",
+    "shareChannelIdList": [
+      0,
+      10,
+      11,
+      17
+    ]
+  },
+  "3": {
+    "envLang": "KR",
+    "shareChannelIdList": [
+      0,
+      10,
+      11,
+      17,
+      18
+    ]
+  },
+  "4": {
+    "envLang": "TC",
+    "shareChannelIdList": [
+      0,
+      10,
+      11
+    ]
+  },
+  "5": {
+    "envLang": "MX",
+    "shareChannelIdList": [
+      0,
+      10,
+      17
+    ]
+  },
+  "6": {
+    "envLang": "BR",
+    "shareChannelIdList": [
+      0,
+      10
+    ]
+  },
+  "7": {
+    "envLang": "FR",
+    "shareChannelIdList": [
+      0,
+      10
+    ]
+  },
+  "8": {
+    "envLang": "DE",
+    "shareChannelIdList": [
+      0,
+      10
+    ]
+  },
+  "9": {
+    "envLang": "RU",
+    "shareChannelIdList": [
+      0
+    ]
+  },
+  "10": {
+    "envLang": "IT",
+    "shareChannelIdList": [
+      0,
+      10,
+      11,
+      12,
+      17
+    ]
+  },
+  "11": {
+    "envLang": "ID",
+    "shareChannelIdList": [
+      0,
+      10,
+      17
+    ]
+  },
+  "12": {
+    "envLang": "TH",
+    "shareChannelIdList": [
+      10,
+      11,
+      12,
+      17
+    ]
+  },
+  "13": {
+    "envLang": "VN",
+    "shareChannelIdList": [
+      10,
+      11,
+      12,
+      17
+    ]
+  }
+}

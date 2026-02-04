@@ -1,0 +1,22 @@
+{
+  "85": {
+    "daysBeforeExpireToNotify": 3,
+    "presetItemType": "BPTicketLTReward"
+  },
+  "82": {
+    "daysBeforeExpireToNotify": 3,
+    "presetItemType": "TicketGachaLTReward"
+  },
+  "63": {
+    "daysBeforeExpireToNotify": 3,
+    "presetItemType": "APLimitReward"
+  },
+  "89": {
+    "daysBeforeExpireToNotify": 3,
+    "presetItemType": "MonthlycardItemReward"
+  },
+  "94": {
+    "daysBeforeExpireToNotify": 3,
+    "presetItemType": "TicketWeaponBoxLTReward"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "90": {
+    "itemType": "MonthlycardItem"
+  },
+  "81": {
+    "itemType": "TicketGachaLTItem"
+  },
+  "86": {
+    "itemType": "BPTicketLTItem"
+  },
+  "62": {
+    "itemType": "APLimitItem"
+  },
+  "93": {
+    "itemType": "TicketWeaponBoxLTItem"
+  }
+}
