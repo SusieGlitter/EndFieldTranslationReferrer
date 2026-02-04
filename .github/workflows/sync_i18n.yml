@@ -2,17 +2,17 @@ name: Sync i18n Folder
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天北京时间上午 8 点自动运行
-  workflow_dispatch:   # 允许你在 GitHub 页面手动点击运行
+    - cron: '0 0 * * *' # 每天北京时间上午 8 点运行
+  workflow_dispatch:   # 允许手动触发
 
 jobs:
   sync:
-    runs-system: ubuntu-latest
+    runs-on: ubuntu-latest  # 这里已修正
     steps:
       - name: Checkout your repo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Clone source repo
         run: |
@@ -20,11 +20,9 @@ jobs:
 
       - name: Copy i18n folder
         run: |
-          # 确保目标文件夹存在
+          # 如果你原来的 i18n 文件夹里有嵌套，这里会直接覆盖它
           mkdir -p i18n
-          # 强制将源仓库的 i18n 内容覆盖到你本地的 i18n 文件夹
           cp -r source_repo/i18n/* ./i18n/
-          # 删除临时克隆的目录
           rm -rf source_repo
 
       - name: Commit and Push
@@ -32,6 +30,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add i18n/
-          # 只有在有变动时才提交，防止报错
-          git diff-index --quiet HEAD || git commit -m "chore: sync i18n folder from XiaBei-cy/EndfieldData"
-          git push
+          # 检查是否有文件变更，避免无意义的提交报错
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: sync i18n folder from XiaBei-cy/EndfieldData"
+            git push
+          else
+            echo "No changes to commit"
+          fi
