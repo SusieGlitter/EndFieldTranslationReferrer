@@ -1,39 +1,44 @@
-name: Sync i18n Folder
+name: Sync and Apply Hotfix
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天北京时间上午 8 点运行
-  workflow_dispatch:   # 允许手动触发
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  sync:
-    runs-on: ubuntu-latest  # 这里已修正
+  sync_and_process:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout your repo
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
 
       - name: Clone source repo
         run: |
           git clone --depth 1 https://github.com/XiaBei-cy/EndfieldData.git source_repo
 
-      - name: Copy i18n folder
+      - name: Sync i18n folder
         run: |
-          # 如果你原来的 i18n 文件夹里有嵌套，这里会直接覆盖它
           mkdir -p i18n
           cp -r source_repo/i18n/* ./i18n/
           rm -rf source_repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run Apply Hotfix Script
+        run: python apply_hotfix.py
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add i18n/
-          # 检查是否有文件变更，避免无意义的提交报错
+          # 提交 i18n (原始数据) 和 data (处理后的数据)
+          git add i18n/ data/
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "chore: sync i18n folder from XiaBei-cy/EndfieldData"
+            git commit -m "chore: sync data and apply hotfixes"
             git push
           else
-            echo "No changes to commit"
+            echo "No changes detected."
           fi
