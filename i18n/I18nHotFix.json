@@ -1,0 +1,702 @@
+{
+  "-1655650307483387142": {
+    "list": [
+      {
+        "id": -1655650307483387142,
+        "platform": "DF",
+        "text": "Pass protocoll.",
+        "type": "IT"
+      }
+    ]
+  },
+  "-6932820256400920769": {
+    "list": [
+      {
+        "id": -6932820256400920769,
+        "platform": "DF",
+        "text": "โอเปอเรเตอร์อย่างน้อย 1 คนที่ใช้อาวุธเป็นปืนหามแล่น",
+        "type": "TH"
+      }
+    ]
+  },
+  "7325222698210257940": {
+    "list": [
+      {
+        "id": 7325222698210257940,
+        "platform": "DF",
+        "text": "Once equipped, item is automatically used on any operator when the said operator can no longer fight. Max uses per battle: <@ba.vup>{count:0}</>.",
+        "type": "EN"
+      }
+    ]
+  },
+  "-6369535528173739273": {
+    "list": [
+      {
+        "id": -6369535528173739273,
+        "platform": "DF",
+        "text": "ปืนหามแล่น",
+        "type": "TH"
+      }
+    ]
+  },
+  "-7945622088677574656": {
+    "list": [
+      {
+        "id": -7945622088677574656,
+        "platform": "DF",
+        "text": "I've drilled it into the patrols, scour every corner for even a scrap of clue about the three. Once things settled a little, I trekked back to where they vanished, combing the area again and again. Nothing. Not a single trace. The only spot left unplumbed is the Landbreaker hive, where those things swarm thickest. But… they couldn't possibly be hiding there. And I certainly can't risk the lives of the patrol teams.",
+        "type": "EN"
+      },
+      {
+        "id": -7945622088677574656,
+        "platform": "DF",
+        "text": "Le insistí a las patrullas que registren cada rincón para encontrar cualquier pista sobre esos tres. Cuando las cosas se calmaron un poco, volví a pie a donde desaparecieron, revisando el área una y otra vez. Nada. Ni un solo rastro. El único lugar que queda sin explorar es la colmena de los Rompesuelos, donde esas cosas se agrupan con más fuerza. Aunque… no creo que estén escondiéndose allí. Y desde luego no puedo arriesgar la vida de los equipos de patrulla.",
+        "type": "MX"
+      },
+      {
+        "id": -7945622088677574656,
+        "platform": "DF",
+        "text": "Eu me aprofundei nas patrulhas, vasculhei cada canto em busca de qualquer pista sobre os três. Assim que as coisas se acalmaram um pouco, voltei para onde eles desapareceram, examinando a área repetidas vezes. Nada. Nem um único vestígio. O único ponto que ainda não foi varrido é o covil dos Invasores de Terras, onde essas pragas fervilham. Mas... eles não poderiam estar escondidos lá. E eu certamente não posso arriscar as vidas dos patrulheiros.",
+        "type": "BR"
+      },
+      {
+        "id": -7945622088677574656,
+        "platform": "DF",
+        "text": "J'ai bien répété aux patrouilles de fouiller le moindre recoin à la recherche d'indices. Et quand les choses se sont un peu calmées, je suis revenu là où ils ont disparu pour inspecter chaque centimètre carré de la zone, encore et encore, mais rien. Pas une trace. Le seul endroit qu'on n'ait pas inspecté, c'est la tanière des Brise-Terres... Mais, impossible qu'ils se cachent là, cet endroit grouille de monde. Et je ne peux certainement pas risquer la vie de mes équipes.",
+        "type": "FR"
+      },
+      {
+        "id": -7945622088677574656,
+        "platform": "DF",
+        "text": "Ich habe den Patrouillen klargemacht, dass sie jeden Winkel nach Hinweisen auf die drei absuchen sollen. Als sich die Lage etwas beruhigt hatte, bin ich zu der Stelle zurückgegangen, an der sie verschwunden sind, und habe die Gegend noch einmal gründlich abgesucht. Nichts. Keine einzige Spur. Der einzige Ort, der noch nicht abgesucht wurde, ist das Landbrecher-Lager, wo diese Dinger sich am meisten aufhalten. Aber dort können sie sich unmöglich verstecken. Und ich kann definitiv nicht das Leben der Patrouillen riskieren.",
+        "type": "DE"
+      },
+      {
+        "id": -7945622088677574656,
+        "platform": "DF",
+        "text": "Я неоднократно повторял патрульным, что нужно прочесать каждую трещину и не упустить даже тень зацепки. Как только все немного успокоилось, я прошел по следам до места, где сотрудники пропали, и тщательно осмотрел местность. Ничего. Никаких зацепок. Не трогали только улей Землекрушителей, там они кишмя кишат. А я не стану рисковать жизнями наших патрульных.",
+        "type": "RU"
+      },
+      {
+        "id": -7945622088677574656,
+        "platform": "DF",
+        "text": "Ho scavato a fondo in ogni pattugliamento, ho setacciato ogni angolo per trovare anche solo uno straccio di indizio su quei tre. Quando le cose si sono appianate un pochino, sono tornato dove sono scomparsi, perlustrando l'area più e più volte. Niente. Neanche una singola traccia. L'unico punto ancora inesplorato è la tana dei Fenditerra, dove quello schifo si annida in quantità. Ma... non è possibile che si nascondano là. E di certo non metto a rischio la vita delle pattuglie.",
+        "type": "IT"
+      },
+      {
+        "id": -7945622088677574656,
+        "platform": "DF",
+        "text": "Aku sudah suruh patroli memeriksa setiap sudut untuk mencari petunjuk keberadaan mereka. Begitu situasinya agak tenang, aku kembali ke tempat terakhir mereka terlihat dan memeriksanya berkali-kali, tapi tetap tak ada hasil. Satu-satunya tempat yang belum kuperiksa hanyalah sarang Landbreaker, yang jelas-jelas dipenuhi kawanan itu. Tapi, rasanya mustahil mereka bersembunyi di sana. Aku juga tak mau mempertaruhkan nyawa tim patroli.",
+        "type": "ID"
+      },
+      {
+        "id": -7945622088677574656,
+        "platform": "DF",
+        "text": "ฉันได้สั่งให้หน่วยลาดตระเวนค้นหาอย่างละเอียดทุกซอกทุกมุม เพื่อหาเบาะแสเกี่ยวกับคนทั้งสาม พอสถานการณ์สงบลงบ้าง ฉันก็เดินทางกลับไปยังจุดที่พวกเขาหายตัวไป แล้วก็ค้นหาพื้นที่นั้นซ้ำแล้วซ้ำอีก ไม่มีสิ่งใด ไม่มีร่องรอยอะไรเลย เหลือแค่จุดเดียวที่ยังไม่ได้เข้าไปก็คือรังของแลนด์เบรกเกอร์ ซึ่งเป็นที่ที่พวกมันรวมตัวกันอย่างหนาแน่น แต่... เป็นไปไม่ได้ที่พวกเขาจะไปซ่อนอยู่ที่นั่น และฉันไม่มีทางเสี่ยงเอาชีวิตของหน่วยลาดตระเวนเข้าไปเสี่ยงอยู่แล้ว",
+        "type": "TH"
+      },
+      {
+        "id": -7945622088677574656,
+        "platform": "DF",
+        "text": "Tôi đã dặn dò các đội tuần tra, lùng sục mọi ngóc ngách để tìm ra dù chỉ là một manh mối nhỏ nhất về ba người đó. Khi tình hình ổn định hơn một chút, tôi quay trở lại nơi họ biến mất, rà soát khu vực đó hết lần này đến lần khác nhưng vẫn chẳng thấy gì. Không có dấu vết nào. Nơi duy nhất chưa rà soát là hang ổ của Landbreaker, nơi bọn chúng tập trung đông đúc nhất. Nhưng… họ không thể nào trốn ở đó được. Và tôi nhất định không mạo hiểm sinh mạng của đội tuần tra.",
+        "type": "VN"
+      }
+    ]
+  },
+  "-907064878908463530": {
+    "list": [
+      {
+        "id": -907064878908463530,
+        "platform": "DF",
+        "text": "Bonus-rekrutierung",
+        "type": "DE"
+      }
+    ]
+  },
+  "-721892985682201364": {
+    "list": [
+      {
+        "id": -721892985682201364,
+        "platform": "DF",
+        "text": "<@ct.key>ศาสตร์แห่งออริจิเนียมถูกปรับใช้กับอาวุธและอุปกรณ์ทุกรูปแบบไม่ว่าจะเป็นมีด ดาบ ปืนหามแล่น ยูนิตเวทและชุดเกราะ\nใช้พลังจากการติดสถานะเวทและระเบิดพลังเวท</>",
+        "type": "TH"
+      }
+    ]
+  },
+  "4013560488511834055": {
+    "list": [
+      {
+        "id": 4013560488511834055,
+        "platform": "DF",
+        "text": "Si le pasa algo a la periodista en territorio de los T.U. nos espera un gran desastre dirigido por la Cámara.",
+        "type": "MX"
+      }
+    ]
+  },
+  "-359331547378165263": {
+    "list": [
+      {
+        "id": -359331547378165263,
+        "platform": "DF",
+        "text": "weitere(r) Rekrutierungsversuch(e) für 10× kostenlos",
+        "type": "DE"
+      }
+    ]
+  },
+  "8629930262238265445": {
+    "list": [
+      {
+        "id": 8629930262238265445,
+        "platform": "DF",
+        "text": "Tai đen ơi, mau chạy nhanh đi. Trước khi thành thất thủ, và ngọn lửa nuốt chửng mi.",
+        "type": "VN"
+      }
+    ]
+  },
+  "2187129795029476499": {
+    "list": [
+      {
+        "id": 2187129795029476499,
+        "platform": "DF",
+        "text": "Isso não vai funcionar. O emissor de onda fixa pode ser antigo, mas ainda tem uma função. Se a Maré de Praga inundar este lugar, podemos usar o emissor para \"estimular\" as ninfas do bosque e direcioná-las para um lugar seguro.",
+        "type": "BR"
+      }
+    ]
+  },
+  "-1578696941676612000": {
+    "list": [
+      {
+        "id": -1578696941676612000,
+        "platform": "DF",
+        "text": "Tag",
+        "type": "TH"
+      }
+    ]
+  },
+  "-643238858680909952": {
+    "list": [
+      {
+        "id": -643238858680909952,
+        "platform": "DF",
+        "text": "I don't know how I feel about this...",
+        "type": "EN"
+      }
+    ]
+  },
+  "5442171149083253424": {
+    "list": [
+      {
+        "id": 5442171149083253424,
+        "platform": "DF",
+        "text": "weitere(r) Rekrutierungsversuch(e) für ",
+        "type": "DE"
+      }
+    ]
+  },
+  "-8758258544413628628": {
+    "list": [
+      {
+        "id": -8758258544413628628,
+        "platform": "DF",
+        "text": "Los guardias de la Cámara querían seguir con vida. Los Rompehuesos son distintos.",
+        "type": "MX"
+      }
+    ]
+  },
+  "1344567191361878392": {
+    "list": [
+      {
+        "id": 1344567191361878392,
+        "platform": "DF",
+        "text": "...A ver si entendí. ¿Tu equipo perdió contra Z7 en el simulacro de combate porque no te graduaste de una escuela militar y Lil’ Dodge no era tu instructor?\nBasta de excusas, chico. Entrené montones de reclutas novatos como tú y ya perdí la cuenta de los perdedores que se sabotean solitos lloriqueando sus tristes historias.\n¡Mira tu cara! ¿Crees que voy a darte un cuentito motivacional de que no tener título o diploma no es tan importante? ¡JA! ¡ERROR! ¡Soy tu maldito instructor, no tu patético psiquiatra! ¡No voy a hacerte sentir bien sobre tus fracasos académicos!\nYa que hablamos de títulos, tengo que decir — en realidad sí es bastante importante.\nPero si te falta, hay formas de arreglártelas.\nAl final me convertí en instructor. ¿Adivina cómo lo logré?\n¡ERROR OTRA VEZ! Yo, Sato Kogo, jamás leí un libro como Dios manda en mi vida. De hecho, apenas aprendí a escribir en victoriano gracias a cursos ofrecidos a bordo de la Dijiang. ¡Cuando tenía tu edad, yo era solo un cobrador de deudas amargado en Neo Tsukushi!\n¿Qué...? ¿No sabes qué es un cobrador de deudas...? Uf. Olvídalo. Lo pondré simple. Músculo a sueldo. Ese era mi trabajo.\nHice eso como tres o cuatro años. O magullaba gente o me magullaban a mí. Mientras alguien pagara los créditos, me daba igual.\nEstaba en mis veintes y pensé que haría eso el resto de mi vida... Nunca esperé que pasara algo grande.\nOh sí... Pisé unos cuantos callos. Mejor dicho, la cola equivocada. No una firmita de seguridad de la cámara, sino un oyabun de los de verdad.\nUf. Por esto mismo te repito que prestes atención al entorno cuando peleas. Yo lo aprendí a la mala, así que al menos quédate con esto.\nEl clima estaba genial ese día. Asedié aquel garito con dos docenas de compañeros de la organización. Del otro lado eran como ocho y pensé que sería pan comido.\nPero esos tipos pelearon como bestias en celo. La mitad de los muchachos cayó en un suspiro. Se me acabaron las ideas, pero no podía dejar a mis hermanos atrás. Así que se me ocurrió la brillante idea de usar las puertas giratorias...\n¿Cómo lo hice? Pues, simplemente solté el pestillo de seguridad y la puse a girar... En fin, bajé a dos enemigos al instante. Unos hermanos empezaron a ayudar y mandamos al resto a volar.\nHubo algo que calculé mal. La puerta giratoria estaba conectada con la de arriba. Eso no sonaría a gran cosa, pero a mi jefe se le ocurrió de pronto disfrutar el espectáculo. Basta decir que se le atoró la cola — El jefe también era Lupo y ya sabes lo que hacen cuando alguien se mete con su cola.\n¿Qué pasó después? Vaya, ¿tengo que dejarlo todo claro? ¡Escapé a las fronteras antes de que me pusieran los zapatos de cemento! Pasé dos años en el transporte, cuatro en trabajo de limpieza, y tres como cazador de recompensas. Mi hígado ya me estaba fallando, pero la suerte finalmente cambió cuando llegué a Endfield. Un viejo cliente me escribió una recomendación. Gracias al Gran gas por eso.\nBien. Tu turno. ¿Cuáles son tus planes para vencer a Z7 la próxima vez?",
+        "type": "MX"
+      }
+    ]
+  },
+  "4074433390663850132": {
+    "list": [
+      {
+        "id": 4074433390663850132,
+        "platform": "DF",
+        "text": "Hubo un tiempo en que estaba confundido sobre la vida. Las arenas subterráneas de la Glorieta asfaltada suelen ser la primera opción para gente de mi tamaño y estatura. Pero la desolación del lugar me impactó. Ese no era el lugar donde quisiera pasar el resto de mi vida. Así que me fui a La Fantoma, ¡una ciudad de oportunidades y punto de reunión de ricos y famosos! ¡Hay sesiones conjuntas de la cámara, foros y expos! ¡TODO!\n......\nPasó un año y me derroché todos mis ahorros en un vehículo. Un comerciante caritativo me ayudó a convertirlo en un restó nómada, que es este de aquí. Y lo llamo “barco” porque está junto al mar. Mi “muelle” es donde amarró mi “barco”. Incluso conseguí algunos ayudantes en aquel entonces. Hice un montón de creds serios durante el Festival de Obsidiana cuando todo el lugar estaba lleno de turistas.\n......\nPero dos años después, encontré a más y más gente haciendo lo mismo que yo. Llegaban con su camión y empezaban a servir a los turistas. El Festival de Obsidiana hizo y deshizo mis fortunas... Construyeron más y más hoteles elegantes, ¿pero yo estoy teniendo cada vez menos comensales? Ese año vi a un Felino que era igual que yo. Se gastó toda su fortuna y terminó sin nada...\n......\nYa habían pasado tres años. No sabía cuánto tiempo iba a seguir a flote. Los ingresos disminuían ¡y ese Perro lo empeoraba! El chucho apestoso siempre estacionaba su food truck frente al mío, y tenía el descaro de venir a mi lugar y decirles a mis comensales que yo ya estaba por terminar... Me daban ganas de matar a ese maldito.\n......\nYo era el último en el “barco”. Empecé a empacar mis cosas y planeé llevar mi “barco” de vuelta a casa. Pero ese fue el mismo año en que La Fantoma fue golpeada por una marea. Cuando terminó el desastre, llegó un equipo de B&R médico de Endfield... ¿Qué tiene que ver esto con mi tienda? No tiene nada que ver con mi tienda, pero salí una noche y oí a Los Endfielders admirar la belleza estrellada de este lugar. Miré alrededor y vi la playa oscura llena de caracolas que las grandes olas arrojaron a la costa. Algunas desprendían resplandores suaves, delicados. De pronto recordé cómo veíamos todo esto cuando apenas arrancaba el festival y la multitud aún era pequeña. De repente tuve una idea, hipotequé mi “barco” al día siguiente, conseguí conchas brillantes y las decoré con varios accesorios. Así es. Estás sosteniendo exactamente eso. ¿Qué pasó después? Pues, conseguimos aún más “muelles” y mi “barco” va navegando bien relajado. \nTe voy a contar algo. Planeo conseguir una concesión sobre esta playa. Sí, así es. La que está bajo tus pies. ¡Voy a moler estas conchas para crear la Costa Brillotardío! Incluso pensé el nombre — Sueños del Mar de polvo estelar. Quizá los organizadores del Festival de obsidiana elijan mi playa para su próximo evento nocturno. Asegúrate de venir, porque te voy a dar un descuento gordo.\n¿Qué pasó con ese apestoso Perro? Oh, está justo allá. Ahora somos socios. ¿Por qué lo elegí? Porque los negocios en La Fantoma van de ayudarse unos a otros. Así hicimos este lugar.",
+        "type": "MX"
+      }
+    ]
+  },
+  "5167906920790947056": {
+    "list": [
+      {
+        "id": 5167906920790947056,
+        "platform": "DF",
+        "text": " попыт. до получения",
+        "type": "RU"
+      },
+      {
+        "id": 5167906920790947056,
+        "platform": "DF",
+        "text": " lagi untuk mendapatkan",
+        "type": "ID"
+      },
+      {
+        "id": 5167906920790947056,
+        "platform": "DF",
+        "text": " distrib. per ottenere",
+        "type": "IT"
+      },
+      {
+        "id": 5167906920790947056,
+        "platform": "DF",
+        "text": " weitere Ausgabe(n) für",
+        "type": "DE"
+      }
+    ]
+  },
+  "-4629574355001189282": {
+    "list": [
+      {
+        "id": -4629574355001189282,
+        "platform": "DF",
+        "text": "weitere(r) Rekrutierungsversuch(e) für ",
+        "type": "DE"
+      }
+    ]
+  },
+  "8794717163880644357": {
+    "list": [
+      {
+        "id": 8794717163880644357,
+        "platform": "DF",
+        "text": "Vamos torcer para que a muda vire uma árvore grande e forte.",
+        "type": "BR"
+      }
+    ]
+  },
+  "-5671734292380321703": {
+    "list": [
+      {
+        "id": -5671734292380321703,
+        "platform": "DF",
+        "text": "En algún lugar de las tierras salvajes, un convoy de pesadas caravanas apagó sus motores y estacionó ante el bloqueo de carretera. El polvo levantado por el viento golpeaba las ventanas mientras los sordos estallidos de explosiones y el sonido de cosas cayendo al suelo resonaban.\nUn joven camionero bajó la ventana y sacó la cabeza. “¡Maldito clima! ¡Parece que va a llover de nuevo! ¿Y hay más bicholoides adelante? ¡Es nuestro tercer encuentro este mes!”\nUn camionero mayor salió de la cabina. El dispositivo de Originio de su caravana ya intentaba limpiar el parabrisas del polvo. “El puesto de redistribución envió un equipo de emergencia. ¿Ves ese vehículo de ingeniería? La tripulación ya está despejando los escombros del camino”\n“Eh, amigo. Te ves como todo un veterano. ¿Has visto bichos especiales?”, preguntó con curiosidad el camionero joven\nEl hombre mayor encendió un cigarro: “Vi uno en un puesto de avanzada cercano hace diez años. ¡Maldito bicholoide era más grande que una caravana! También vi a un compañero camionero saltando hacia la cabina.\n“¿Lo logró?”\n“Bueno, ese bicho gigante lo siguió, pero no pudo mantener el agarre. Se cayó con el contenedor de la caravana y lo aplastó un montón de 50 toneladas de mineral crudo de Originio.”\n“Suena como un bicho muy estúpido. Hombre, ese camionero tuvo mucha suerte. Me dijeron que por aquí había arañas rocosas por todos lados en ese entonces.”\n“Era mucho peor antes, “el viejo camionero sopló un aro de humo al aire. Esta carretera no existía, y no había puestos de redistribución ni equipos de apoyo de la C.G.C.T. Era una época en la que los pueblos y aldeas locales, sin importar su tamaño, luchaban entre sí o con los rompesuelos por las provisiones enlatadas.”\nEso llamó la atención del joven camionero. Ya casi estaba fuera de la cabina.“¿Pelear con las bandas de rompesuelos por unas latas? Vaya, ahora todo lo que veo son artesanos vendiendo sus productos y cosas así. Incluso veo gente de Kjersch.”\n“Así fue como fundamos la Cámara de Comercio. Todo empezó con una docena o más de camioneros muy experimentados. Mi mentor estuvo entre los fundadores de la Cámara” sonrió el viejo camionero. ¿Ves esa instalación de Endfield? Se quedó sin comida hace diez años. Nos arriesgamos, atravesamos el territorio de los rompesuelos y entregamos los suministros. Esa fue mi primera vez al volante de una caravana.”\n“Apuesto a que quedaron muy agradecidos por la comida”\n“No exactamente. Limpiaron el suelo con una banda de rompesuelos que intentó asaltarlos. Los Endfielders les robaron las raciones a los rompesuelos, y eso los mantuvo durante un buen tiempo..”\nEl sonido de las explosiones se acercaba, y los escombros empezaron a caer de las laderas de la colina a lo lejos. Los camioneros esperaban pacientemente para continuar.\n“El puesto de redistribución seguía hablando de... “cumplimiento empresarial”, “el joven camionero volvió a meterse en su cabina y sacó una gran barra de chocolate. Rompió un trozo y se lo lanzó a otro camionero que esperaba cerca de su caravana”. Las revisiones de rutas están bien, solo es un pequeño desperdicio de tiempo, pero ahora hasta están poniendo un precio uniforme al ORIGO combustible, ¡y el precio está por las nubes! Estos tipos nos están robando nuestros T-Creds.”\nOtro camionero que paseaba escuchó la conversación y decidió unirse. “Di lo que quieras, pero las cosas estarían mucho mejor si no tuviéramos que pagarle su tajada a la C.G.C.T.”\n“¿Y quién va a acuñar los T-Creds? ¿Quién va a cuidar de los camioneros independientes como nosotros? — el camionero veterano sonrió mientras soplaba otro aro de humo..\n“¿Oh?”\n“Y olvídate de los muslos de pollo extra crujientes de Caravan Express, o de paradas de abastecimiento a precios decentes cuando desaparezca la C.G.C.T.”\n“Yo..., el joven camionero no sabía qué decir. Finalmente se encogió de hombros y volvió a entrar en su cabina. “Bah. Ni siquiera se puede hacer una broma sobre la cámara.”\nEscucharon otra explosión, esta vez más cercana.\n“La C.G.C.T. ahora son puros grandes negocios...” añadió el camionero después de una breve vacilación. “Escuché que una empresa está intentando monopolizar el suministro de Origo combustible....”\nEl camionero veterano miró el humo a lo lejos..\n“Monopolios... Al último que ignoró el Acuerdo e intentó hacerlo le tocó una buena ración de cárcel, cortesía de la sesión conjunta de la C.G.C.T. Y ya que estamos, el comercio de recursos clave siempre estará controlado, pero lo hacen por el Frente Norte. Hice bastantes entregas a ese lugar. Esos viajes fueron bastante peligrosos”.\n“Oh, el Norte, ¿no? Yo de hecho aplasté un bicholoide con mi camión.”\nUnos trabajadores al frente de la caravana de repente movieron el bloqueo de carretera. Un ruido rasposo salió de las radios de Originio: “Sección de carretera despejada. Sigan adelante y mantengan la distancia.”\n“Vas al Valle IV, ¿no? Supongo que aquí nos despedimos” gritó el joven camionero lo más fuerte que pudo.\n“¿Ya te cansas de mí? ¡Yo también voy a Wuling!! el viejo camionero se aseguró de ponerse el cinturón y revisó su espejo retrovisor. Aún no nos despedimos.”\n“¿Qué demonios, viejo amigo? ¿Me estás siguiendo o qué?”\n“¿Me tomas por acosador? Voy a cargar comida en Wuling, dejarla en el Valle IV, conseguir Mineral de Originio para Kjersch y luego llevar un contenedor lleno de artesanías a La Fantoma”.\nLos camioneros continuaron con su crudeza, arrancaron los motores y volvieron a integrarse en las interminables caravanas.",
+        "type": "MX"
+      }
+    ]
+  },
+  "-6334839966527701397": {
+    "list": [
+      {
+        "id": -6334839966527701397,
+        "platform": "DF",
+        "text": "ปืนหามแล่น",
+        "type": "TH"
+      }
+    ]
+  },
+  "-5193609255205461044": {
+    "list": [
+      {
+        "id": -5193609255205461044,
+        "platform": "DF",
+        "text": "Hooo... hoo... Por fin terminó. Recuerda mis palabras. ¡Esto estuvo mucho más emocionante que aquella pelea con treinta guardaespaldas de la Cámara!",
+        "type": "MX"
+      }
+    ]
+  },
+  "8487803315935170508": {
+    "list": [
+      {
+        "id": 8487803315935170508,
+        "platform": "DF",
+        "text": "ตั๋วกราฟฟิตี",
+        "type": "TH"
+      }
+    ]
+  },
+  "4195894662962171070": {
+    "list": [
+      {
+        "id": 4195894662962171070,
+        "platform": "DF",
+        "text": "REGISTRO A: Mayday. Mayday. ¿Alguien, respondan? Habla un equipo de reconocimiento de Endfield en la Zona contaminada... [ESTÁTICA]...pervivientes. Fuimos atacados por Plagamorfos... [ESTÁTICA]...dispositivo de comunicación deshabilitado. Continuaremos transmitiendo nuestros datos de posición por este canal. ¡Esta es una llamada de auxilio! ¡Por favor, respondan! ¡Mayday!\n\nREGISTRO B: Han pasado seis horas sin respuesta. Parece que estamos por nuestra cuenta. El equipo estándar del grupo ha quedado... inutilizado por la Plaga. Necesitamos armas nuevas para abrirnos paso y salir de aquí. El manual de supervivencia nos dio muchos consejos, pero no creo que piedras afiladas y bengalas sirvan para ahuyentar a los Rompesuelos.\n\nREGISTRO C: Se me acaba de ocurrir algo. ¡Ser creativo siempre ha sido mi fortaleza! Nuestro dron U.A.V. se quedó sin sistema de vuelo y me di cuenta de que podía quitarle las palas del rotor y fijarlas al trípode de nuestros instrumentos geodésicos... Las palas estaban hechas de una aleación bastante resistente y los bordes eran algo afilados. Estos artilugios deberían servir por ahora.\n\nREGISTRO D: Logramos... de hecho logramos repeler algo que bloqueaba nuestro paso. Las bajas fueron... mínimas. Maldito Talos, ¡nunca pensé que estas armas improvisadas funcionarían! Deberíamos salir de esta Zona contaminada tras medio día de caminata. ¡Eso debería acercar al equipo lo suficiente a un asentamiento de la Cámara para conseguir ayuda! Solo espero que no nos dejen en los huesos con sus condenados vales de crédito...\n\nREGISTRO E: Terminé los planos y diseños mientras me recuperaba en mi cama. Espero que esta espada complazca al viejo cascarrabias encargado del arsenal. Perdí 2 dedos con esa cosa. Espero que los resultados valgan con creces mi sacrificio.",
+        "type": "MX"
+      }
+    ]
+  },
+  "8488562277847876592": {
+    "list": [
+      {
+        "id": 8488562277847876592,
+        "platform": "DF",
+        "text": "宮本侑芽",
+        "type": "JP"
+      }
+    ]
+  },
+  "8640531877366130860": {
+    "list": [
+      {
+        "id": 8640531877366130860,
+        "platform": "DF",
+        "text": "Once equipped, item is automatically used on any operator when the said operator can no longer fight. Max uses per battle: <@ba.vup>{count:0}</>.",
+        "type": "EN"
+      }
+    ]
+  },
+  "-3492747015300750749": {
+    "list": [
+      {
+        "id": -3492747015300750749,
+        "platform": "DF",
+        "text": "Desenvolvimento Regional",
+        "type": "BR"
+      }
+    ]
+  },
+  "-6056847406654247526": {
+    "list": [
+      {
+        "id": -6056847406654247526,
+        "platform": "DF",
+        "text": "Appuyer sur une touche pour continuer",
+        "type": "FR"
+      }
+    ]
+  },
+  "-5846330672593703592": {
+    "list": [
+      {
+        "id": -5846330672593703592,
+        "platform": "DF",
+        "text": "¡Se hizo justicia! ¡Agentes de Cámara como tú hacían lo que querían en la Franja! ¡Acosaban a los pequeños como nosotros y se quedaban con nuestros tratos! ¡El despido es exactamente lo que te mereces! ¡JAJAJAJA!",
+        "type": "MX"
+      }
+    ]
+  },
+  "-933313053854935697": {
+    "list": [
+      {
+        "id": -933313053854935697,
+        "platform": "DF",
+        "text": "ปืนหามแล่น",
+        "type": "TH"
+      }
+    ]
+  },
+  "5920329088399169633": {
+    "list": [
+      {
+        "id": 5920329088399169633,
+        "platform": "DF",
+        "text": "weitere(r) Rekrutierungsversuch(e) für ",
+        "type": "DE"
+      }
+    ]
+  },
+  "7915809737687752706": {
+    "list": [
+      {
+        "id": 7915809737687752706,
+        "platform": "DF",
+        "text": "Once equipped, item is automatically used on any operator when the said operator can no longer fight. Max uses per battle: <@ba.vup>{count:0}</>.",
+        "type": "EN"
+      }
+    ]
+  },
+  "-4343234596042486885": {
+    "list": [
+      {
+        "id": -4343234596042486885,
+        "platform": "DF",
+        "text": "Bonus-rekrutierung",
+        "type": "DE"
+      }
+    ]
+  },
+  "837588690179131272": {
+    "list": [
+      {
+        "id": 837588690179131272,
+        "platform": "DF",
+        "text": "Para familiarizar Endministrator, que acabou de despertar, com os muitos projetos em andamento da Endfield, a Divisão de RH planejou um evento especial de recrutamento.",
+        "type": "BR"
+      }
+    ]
+  },
+  "5394376649321281976": {
+    "list": [
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "%d Chartered Headhunting banner(s)",
+        "type": "EN"
+      },
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "特別スカウト%d回開催後",
+        "type": "JP"
+      },
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "%d banner(s) de C.R. cert.",
+        "type": "MX"
+      },
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "%d estandarte(s) de CT Privilegiada",
+        "type": "BR"
+      },
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "%d bannière(s) de recrutement certifié",
+        "type": "FR"
+      },
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "%d „Rekrutierung: Priorisiert“- Banner",
+        "type": "DE"
+      },
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "%d баннер. специального найма",
+        "type": "RU"
+      },
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "%d campagna/e di caccia ai talenti certificata",
+        "type": "IT"
+      },
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "%d banner Headhunt Khusus",
+        "type": "ID"
+      },
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "%d หน่วยทหารใบอนุญาตการสรรหารับรอง",
+        "type": "TH"
+      },
+      {
+        "id": 5394376649321281976,
+        "platform": "DF",
+        "text": "%d biểu ngữ Chiêu Mộ Đặc Quyền",
+        "type": "VN"
+      }
+    ]
+  },
+  "1527855399214872195": {
+    "list": [
+      {
+        "id": 1527855399214872195,
+        "platform": "DF",
+        "text": "<@profile.key>DOCUMENTO: Carta de recomendación del Jefe de Correos Laine \nMa-Ma-Ma: \nSi lees esta carta de recomendación, te ruego que ayudes a una vieja amiga. Saca a esa mujer sentada frente a ti de mi estación postal. Hay una razón por la que elegí Shaynwood, un lugar donde las bestias voladoras nunca anidan, para disfrutar de mi paz, tranquilidad y jubilación. No tengo intención de enfrentarme a agentes de cámara o ratas corporativas que siguen apareciendo armadas y ansiosas por saldar alguna deuda o lo que sea que llamen. Así es. ¡Mi tranquilo retiro en Shaynwood se ha convertido en un carnaval en menos de un año! Pasó un montón de ambulancias, y el puesto de carga de Originio en el pueblo hizo una buena cantidad de créditos. No sé qué les hizo Avy, pero por lo que parece, probablemente nada bueno. \nY tengo razones bastante simples para enviártela. Esta chica del campo de Rim Billiton, que se arrastra por túneles, no sabe nada de ordeñar bestias de quiste. De hecho, mi manada de bestias de quiste ahora le tiene un miedo mortal porque siempre aprieta demasiado con esas manos de minera que tiene. Además, arregló el sistema postal y lo dejó funcionando como una máquina bien engrasada. ¡Ahora todos los suertudos de Shaynwood recibirán sus regalos antes de la temporada de fiestas! ¡Solo para que lo sepas, le he estado pagando una miseria! Pero, juzgando por la forma en que come, se viste y actúa, y por ese equipo exterior hecho a medida, probablemente trabajó en un equipo de seguridad privada en la Franja. Apostaría por Seguridad Sloan, que es uno de los negocios familiares más grandes de la Ciudad Libre de Alloycarrot. Lo que significa que se llevaba un sueldo de los buenos. Y como eligió Shaynwood como su escondite, estoy totalmente convencido de que tiene un serio problema mental. \nAh, y una cosa más. Está súper interesada en nuestro Endministrator. Después de que encontró mi certificado de renuncia, que yo había mantenido escondido en mis cajones, empezó a prepararnos la cena, con la esperanza de que pudiera contarle algo sobre el Endmin. Esto es increíblemente inquietante. La verdad, ya había pasado una generación desde que trabajé con el Endmin. Mantengamos estas palabras entre nosotros (y estoy intentando ser amable y positiva aquí): Hace falta una chiflada para lidiar con otro. \nCon mis mejores deseos, \nLaine \nDOCUMENTO: Respuesta a otra carta \nLaine: \nLa candidata Avywenna ha superado con éxito una serie de pruebas y ahora trabaja oficialmente en Endfield como operadora. Gracias por su recomendación. Le enviaremos una Caja de Suministros de Recompensa de Endfield como muestra de nuestro agradecimiento. \n............ \nTeniendo en cuenta nuestras consideraciones de seguridad, me pregunto si podría compartir con nosotros el origen de la lanza que la señorita Avywenna lleva consigo. Parece muy apegada a esta arma, pero lo único que nos dijo sobre ella es que la lanza era algo de su abuela. La señorita Avywenna está armada con muchas más armas de las que esperábamos. Le tomaría de cinco a seis minutos desarmarse por completo para pasar los controles de seguridad. Incluso tiene cuchillas escondidas en las suelas de sus zapatos. Y esas dos largas correas que cuelgan detrás de ella no son meramente decorativas. Descubrimos para qué sirven realmente durante el entrenamiento de seguridad. Dulce como una zanahoria azucarada, pero armada con una gran lanza: una combinación única. \nLa señorita Avywenna, una operadora originaria de las zonas residenciales de Rim Billiton, ha demostrado que un gran poder ofensivo también puede presentarse en un paquete esbelto y ágil. Ahora tenemos una visión positiva respecto a la conservación de ciertas tradiciones culturales y de la ecología entre los residentes de esta sección de la Franja. \nMartin Marvin Malen </>",
+        "type": "MX"
+      }
+    ]
+  },
+  "-3259658748698108668": {
+    "list": [
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "[기간 한정 판매]",
+        "type": "KR"
+      },
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "Limited-Time",
+        "type": "EN"
+      },
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "Tiempo limitado",
+        "type": "MX"
+      },
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "Tempo Limitado",
+        "type": "BR"
+      },
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "Durée limitée",
+        "type": "FR"
+      },
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "Zeitlich begrenzt",
+        "type": "DE"
+      },
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "Временно",
+        "type": "RU"
+      },
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "A tempo limitato",
+        "type": "IT"
+      },
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "Berbatas Waktu",
+        "type": "ID"
+      },
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "จำกัดเวลา",
+        "type": "TH"
+      },
+      {
+        "id": -3259658748698108668,
+        "platform": "DF",
+        "text": "Giới Hạn Thời Gian",
+        "type": "VN"
+      }
+    ]
+  },
+  "1636356658842109830": {
+    "list": [
+      {
+        "id": 1636356658842109830,
+        "platform": "DF",
+        "text": "Once equipped, item is automatically used on any operator when the said operator can no longer fight. Max uses per battle: <@ba.vup>{count:0}</>.",
+        "type": "EN"
+      }
+    ]
+  },
+  "-2974244515220434125": {
+    "list": [
+      {
+        "id": -2974244515220434125,
+        "platform": "DF",
+        "text": " попыт. до получения большего кол-ва",
+        "type": "RU"
+      },
+      {
+        "id": -2974244515220434125,
+        "platform": "DF",
+        "text": " lagi untuk ekstra",
+        "type": "ID"
+      },
+      {
+        "id": -2974244515220434125,
+        "platform": "DF",
+        "text": " distribuzione/i per ottenere extra",
+        "type": "IT"
+      },
+      {
+        "id": -2974244515220434125,
+        "platform": "DF",
+        "text": " weitere Ausgabe(n) für diesen Bonus",
+        "type": "DE"
+      }
+    ]
+  },
+  "9092424292013790837": {
+    "list": [
+      {
+        "id": 9092424292013790837,
+        "platform": "DF",
+        "text": "ส่วนจัดแสดงปืนหามแล่น",
+        "type": "TH"
+      }
+    ]
+  },
+  "-1178864260747107550": {
+    "list": [
+      {
+        "id": -1178864260747107550,
+        "platform": "DF",
+        "text": "ตั๋วกราฟฟิตี",
+        "type": "TH"
+      }
+    ]
+  },
+  "-1201247146326791915": {
+    "list": [
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "Ending after %d Chartered Headhunting banner(s)",
+        "type": "EN"
+      },
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "特別スカウト%d回開催後に終了",
+        "type": "JP"
+      },
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "Finaliza después de %d banner(s) de C.R. cert.",
+        "type": "MX"
+      },
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "Encerrando após %d estandarte(s) CT Privilegiada",
+        "type": "BR"
+      },
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "Restant : %d bannière(s) de recrutement certifié",
+        "type": "FR"
+      },
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "Ende: %d „Rekrutierung: Priorisiert“-Banner",
+        "type": "DE"
+      },
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "Завершится после %d баннер. специального найма",
+        "type": "RU"
+      },
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "Termina dopo %d campagna/e di caccia certificata",
+        "type": "IT"
+      },
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "Berakhir setelah %d banner Headhunt Khusus",
+        "type": "ID"
+      },
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "สิ้นสุดหลัง %d หน่วยทหารใบอนุญาตการสรรหารับรอง",
+        "type": "TH"
+      },
+      {
+        "id": -1201247146326791915,
+        "platform": "DF",
+        "text": "Kết thúc sau %d sự kiện biểu ngữ Chiêu Mộ Đặc Quyền",
+        "type": "VN"
+      }
+    ]
+  }
+}
