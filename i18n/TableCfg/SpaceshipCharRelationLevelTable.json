@@ -1,0 +1,26 @@
+{
+  "3": {
+    "favorDesc": {
+      "id": -1466775310785086153,
+      "text": null
+    },
+    "favorability": 1500,
+    "relationLevel": 3
+  },
+  "1": {
+    "favorDesc": {
+      "id": 8374708042030808059,
+      "text": null
+    },
+    "favorability": 0,
+    "relationLevel": 1
+  },
+  "2": {
+    "favorDesc": {
+      "id": -6407436334829212740,
+      "text": null
+    },
+    "favorability": 300,
+    "relationLevel": 2
+  }
+}

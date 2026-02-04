@@ -1,0 +1,10 @@
+{
+  "0": {
+    "increaseType": "None",
+    "loopEffectId": ""
+  },
+  "1": {
+    "increaseType": "Default",
+    "loopEffectId": "P_fxint_s_gather_fertilize_increaseproduction_01"
+  }
+}

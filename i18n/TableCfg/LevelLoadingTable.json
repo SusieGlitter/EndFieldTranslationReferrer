@@ -1,0 +1,2135 @@
+{
+  "dung01_rdg001": {
+    "bgNameGroup": [
+      "bg_loading_dung_wolfgd_01"
+    ],
+    "levelId": "dung01_rdg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_sdg003": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_sdg003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_hdg001": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "indie_hdg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_sdg002": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_sdg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_pipe_2": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_pipe_2",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_rdg007": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung01_rdg007",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_sdg001": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_sdg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_hdg002": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "indie_hdg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_rdg005": {
+    "bgNameGroup": [
+      "bg_loading_dung_yvonne_01"
+    ],
+    "levelId": "dung01_rdg005",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_pipe_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_pipe_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_rdg004": {
+    "bgNameGroup": [
+      "bg_loading_dung_laevat_01"
+    ],
+    "levelId": "dung01_rdg004",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_sdg006": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_sdg006",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_liquidcleaner_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_liquidcleaner_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_planter_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_planter_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_sdg005": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_sdg005",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_sdg004": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_sdg004",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_connector_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_connector_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_basic_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_basic_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_dg002": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung02_dg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_dg001": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung02_dg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_hdg004": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "indie_hdg004",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_cdg004": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung01_cdg004",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_cdg005": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung01_cdg005",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_hdg003": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "indie_hdg003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_splitter_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_splitter_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_cdg006": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung01_cdg006",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_cdg007": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung01_cdg007",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_cdg001": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung01_cdg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "base01_dg003": {
+    "bgNameGroup": [
+      "bg_loading_combat_1"
+    ],
+    "levelId": "base01_dg003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_cdg002": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung01_cdg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_thickener_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_thickener_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_bdg001": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_bdg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_cdg003": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung01_cdg003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_bdg002": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_bdg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_dg003": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung02_dg003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_planter_2": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_planter_2",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_squirter_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_squirter_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_bdg003": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_bdg003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_filling_2": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_filling_2",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "base01_lv001": {
+    "bgNameGroup": [
+      "bg_loading_dijiang_1"
+    ],
+    "levelId": "base01_lv001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_cdg008": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung01_cdg008",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_wrdg001_guide": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_wrdg001_guide",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_hdg006": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "indie_hdg006",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_hdg005": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "indie_hdg005",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_grinder_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_grinder_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_xiraniteoven_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_xiraniteoven_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "base01_dg001": {
+    "bgNameGroup": [
+      "bg_loading_combat_1"
+    ],
+    "levelId": "base01_dg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_cdg010": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung01_cdg010",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_mix_2": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_mix_2",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_filling_5": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_filling_5",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_mix_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_mix_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_filling_3": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_filling_3",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "base01_lv002": {
+    "bgNameGroup": [
+      "bg_loading_dijiang_1"
+    ],
+    "levelId": "base01_lv002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_ssdg003": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung02_ssdg003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_miner_3": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_miner_3",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_bus_2": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_bus_2",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_bus_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_bus_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_belt_2": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_belt_2",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_belt_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_belt_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_ssdg001": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung02_ssdg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_asseblingbomb_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_asseblingbomb_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_storager_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_storager_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_powerstation_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_powerstation_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_winder_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_winder_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_cdg004": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung02_cdg004",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_cmpt_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_cmpt_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_ssdg002": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_ssdg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_cdg005": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung02_cdg005",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_dg002": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "indie_dg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_cdg006": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung02_cdg006",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_dg005": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "indie_dg005",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_converger_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_converger_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_dg007": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "indie_dg007",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_cdg001": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung02_cdg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_dg006": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "indie_dg006",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_cdg002": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung02_cdg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_cdg003": {
+    "bgNameGroup": [
+      "bg_loading_default_1"
+    ],
+    "levelId": "dung02_cdg003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_miner_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_miner_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_ssdg001": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_ssdg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_assebling_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_assebling_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_miner_2": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_miner_2",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_assebling_2": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_assebling_2",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_shaper_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_shaper_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_filling_4": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_filling_4",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_hub_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_hub_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "map01_lv005": {
+    "bgNameGroup": [
+      "bg_loading_map01_lv005_1",
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "map01_lv005",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": true,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "map01_lv007": {
+    "bgNameGroup": [
+      "bg_loading_map01_lv007_1",
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "map01_lv007",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": true,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "map01_lv006": {
+    "bgNameGroup": [
+      "bg_loading_map01_lv006_1"
+    ],
+    "levelId": "map01_lv006",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_wrdg001": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung01_wrdg001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "map01_lv001": {
+    "bgNameGroup": [
+      "bg_loading_map01_lv001_1",
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "map01_lv001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": true,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "map01_lv003": {
+    "bgNameGroup": [
+      "bg_loading_map01_lv003_1"
+    ],
+    "levelId": "map01_lv003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "map01_lv002": {
+    "bgNameGroup": [
+      "bg_loading_map01_lv002_1",
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "map01_lv002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": true,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "base01_lv003": {
+    "bgNameGroup": [
+      "bg_loading_dijiang_1"
+    ],
+    "levelId": "base01_lv003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung02_ssdg002": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "dung02_ssdg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_filling_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_filling_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_conditioner_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_conditioner_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_power_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map01_1"
+    ],
+    "levelId": "blackbox_power_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_check002": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "indie_check002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "map02_lv002": {
+    "bgNameGroup": [
+      "bg_loading_map02_lv002_1",
+      "bg_loading_map02_lv002_2",
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "map02_lv002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": true,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "blackbox_dismantler_1": {
+    "bgNameGroup": [
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "blackbox_dismantler_1",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "base01_dg002": {
+    "bgNameGroup": [
+      "bg_loading_combat_1"
+    ],
+    "levelId": "base01_dg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "indie_check001": {
+    "bgNameGroup": [
+      "bg_loading_combat_1",
+      "bg_loading_upgrade_1"
+    ],
+    "levelId": "indie_check001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_rdg003": {
+    "bgNameGroup": [
+      "bg_loading_dung_laevat_02"
+    ],
+    "levelId": "dung01_rdg003",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "map02_lv001": {
+    "bgNameGroup": [
+      "bg_loading_map02_lv001_1",
+      "bg_loading_map02_lv001_2",
+      "bg_loading_map02_lv001_3",
+      "bg_loading_factory_map02_1"
+    ],
+    "levelId": "map02_lv001",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": false,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": true,
+    "typeTags": [
+      null,
+      null
+    ]
+  },
+  "dung01_rdg002": {
+    "bgNameGroup": [
+      "bg_loading_dung_aglina_01"
+    ],
+    "levelId": "dung01_rdg002",
+    "mapTags": [
+      null,
+      null
+    ],
+    "originOverrideTypeTag": true,
+    "overrideTypeTags": [
+      null,
+      null
+    ],
+    "regionRelated": false,
+    "typeTags": [
+      null,
+      null
+    ]
+  }
+}

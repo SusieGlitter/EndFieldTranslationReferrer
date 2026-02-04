@@ -1,0 +1,22 @@
+{
+  "item_expcard_stage1_high": {
+    "expGain": 10000,
+    "expType": "ExpTypeJunior"
+  },
+  "item_expcard_stage1_low": {
+    "expGain": 200,
+    "expType": "ExpTypeJunior"
+  },
+  "item_expcard_stage1_mid": {
+    "expGain": 1000,
+    "expType": "ExpTypeJunior"
+  },
+  "item_expcard_stage2_high": {
+    "expGain": 10000,
+    "expType": "ExpTypeSenior"
+  },
+  "item_expcard_stage2_low": {
+    "expGain": 1000,
+    "expType": "ExpTypeSenior"
+  }
+}

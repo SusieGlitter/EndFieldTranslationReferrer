@@ -1,0 +1,47 @@
+{
+  "5": {
+    "count": 12,
+    "name": {
+      "id": -3084156107683484360,
+      "text": null
+    },
+    "sortId": 4,
+    "type": "Day1"
+  },
+  "6": {
+    "count": 14,
+    "name": {
+      "id": 3401512660631919915,
+      "text": null
+    },
+    "sortId": 5,
+    "type": "Day7"
+  },
+  "2": {
+    "count": 10,
+    "name": {
+      "id": -8044586767730125,
+      "text": null
+    },
+    "sortId": 1,
+    "type": "Minute10"
+  },
+  "7": {
+    "count": 15,
+    "name": {
+      "id": 8391617604889640477,
+      "text": null
+    },
+    "sortId": 3,
+    "type": "Hour2"
+  },
+  "3": {
+    "count": 15,
+    "name": {
+      "id": -8655951628415236208,
+      "text": null
+    },
+    "sortId": 2,
+    "type": "Minute30"
+  }
+}

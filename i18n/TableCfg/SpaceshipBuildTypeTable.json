@@ -1,0 +1,37 @@
+{
+  "0": {
+    "typeList": [
+      {
+        "type": "ControlCenter"
+      }
+    ]
+  },
+  "5": {
+    "typeList": [
+      {
+        "type": "GuestRoomClueExtension"
+      }
+    ]
+  },
+  "999997": {
+    "typeList": [
+      {
+        "type": "GrowCabin"
+      }
+    ]
+  },
+  "3": {
+    "typeList": [
+      {
+        "type": "GuestRoom"
+      }
+    ]
+  },
+  "999998": {
+    "typeList": [
+      {
+        "type": "ManufacturingStation"
+      }
+    ]
+  }
+}

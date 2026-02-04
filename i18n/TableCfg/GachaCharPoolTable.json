@@ -1,0 +1,171 @@
+{
+  "special_1_0_1": {
+    "color": "ec0338",
+    "cumulativeRewardIds": [],
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "id": "special_1_0_1",
+    "intervalAutoRewardIds": [
+      "reward_charpotentialup_chr_0016_laevat"
+    ],
+    "mailBannerImage": "gachapool_mail_banner_v1d0_01",
+    "name": {
+      "id": 2863169750850164319,
+      "text": null
+    },
+    "nameImage": "gachapool_titleicon_laevat",
+    "sortId": 2,
+    "tabGradientColor": "ec0338",
+    "tabImage": "gachapool_type_laevat",
+    "testimonialRewardItemId": "item_gacha_introletter_1_0_1",
+    "textColor": "FFFFFF",
+    "ticketGachaSingleLt": "item_ticketgacha_special_single_lt_1_0_1",
+    "ticketGachaTenLt": "item_ticketgacha_special_ten_lt_1_0_1",
+    "trialActivityJumpId": "jump_center_activity_char_trial_1",
+    "type": "Special",
+    "uiPrefab": "GachaPoolNodeLimitedBase",
+    "upCharDesc": {
+      "id": 0,
+      "text": null
+    },
+    "upCharIds": [
+      "chr_0016_laevat"
+    ]
+  },
+  "standard": {
+    "color": "eeeeee",
+    "cumulativeRewardIds": [],
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "id": "standard",
+    "intervalAutoRewardIds": [],
+    "mailBannerImage": "",
+    "name": {
+      "id": 5913731143154264334,
+      "text": null
+    },
+    "nameImage": "gachapool_title",
+    "sortId": 3,
+    "tabGradientColor": "fff719",
+    "tabImage": "gachapool_type_newbie",
+    "testimonialRewardItemId": "",
+    "textColor": "333333",
+    "ticketGachaSingleLt": "",
+    "ticketGachaTenLt": "",
+    "trialActivityJumpId": "",
+    "type": "Standard",
+    "uiPrefab": "GachaPoolNodeStandard",
+    "upCharDesc": {
+      "id": 0,
+      "text": null
+    },
+    "upCharIds": []
+  },
+  "beginner": {
+    "color": "404040",
+    "cumulativeRewardIds": [
+      "reward_case_wpn_selfselect_gacha_beginner"
+    ],
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "id": "beginner",
+    "intervalAutoRewardIds": [],
+    "mailBannerImage": "",
+    "name": {
+      "id": -5316297970819700357,
+      "text": null
+    },
+    "nameImage": "",
+    "sortId": 1,
+    "tabGradientColor": "fff719",
+    "tabImage": "gachapool_type_start",
+    "testimonialRewardItemId": "",
+    "textColor": "fff719",
+    "ticketGachaSingleLt": "",
+    "ticketGachaTenLt": "",
+    "trialActivityJumpId": "",
+    "type": "Beginner",
+    "uiPrefab": "GachaPoolNodeStarter",
+    "upCharDesc": {
+      "id": 0,
+      "text": null
+    },
+    "upCharIds": []
+  },
+  "special_1_0_3": {
+    "color": "f83500",
+    "cumulativeRewardIds": [],
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "id": "special_1_0_3",
+    "intervalAutoRewardIds": [
+      "reward_charpotentialup_chr_0013_aglina"
+    ],
+    "mailBannerImage": "gachapool_mail_banner_v1d0_03",
+    "name": {
+      "id": -8672529140770783809,
+      "text": null
+    },
+    "nameImage": "gachapool_titleicon_aglina",
+    "sortId": 2,
+    "tabGradientColor": "f83500",
+    "tabImage": "gachapool_type_aglina",
+    "testimonialRewardItemId": "item_gacha_introletter_1_0_3",
+    "textColor": "FFFFFF",
+    "ticketGachaSingleLt": "item_ticketgacha_special_single_lt_1_0_3",
+    "ticketGachaTenLt": "item_ticketgacha_special_ten_lt_1_0_3",
+    "trialActivityJumpId": "jump_center_activity_char_trial_3",
+    "type": "Special",
+    "uiPrefab": "GachaPoolNodeLimited_chr_0013_aglina",
+    "upCharDesc": {
+      "id": 0,
+      "text": null
+    },
+    "upCharIds": [
+      "chr_0013_aglina"
+    ]
+  },
+  "special_1_0_2": {
+    "color": "FF319F",
+    "cumulativeRewardIds": [],
+    "desc": {
+      "id": 0,
+      "text": null
+    },
+    "id": "special_1_0_2",
+    "intervalAutoRewardIds": [
+      "reward_charpotentialup_chr_0017_yvonne"
+    ],
+    "mailBannerImage": "gachapool_mail_banner_v1d0_02",
+    "name": {
+      "id": 911187486940174834,
+      "text": null
+    },
+    "nameImage": "gachapool_titleicon_yvonne",
+    "sortId": 2,
+    "tabGradientColor": "FF319F",
+    "tabImage": "gachapool_type_yvonne",
+    "testimonialRewardItemId": "item_gacha_introletter_1_0_2",
+    "textColor": "FFFFFF",
+    "ticketGachaSingleLt": "item_ticketgacha_special_single_lt_1_0_2",
+    "ticketGachaTenLt": "item_ticketgacha_special_ten_lt_1_0_2",
+    "trialActivityJumpId": "jump_center_activity_char_trial_2",
+    "type": "Special",
+    "uiPrefab": "GachaPoolNodeLimited_chr_0017_yvonne",
+    "upCharDesc": {
+      "id": 0,
+      "text": null
+    },
+    "upCharIds": [
+      "chr_0017_yvonne"
+    ]
+  }
+}

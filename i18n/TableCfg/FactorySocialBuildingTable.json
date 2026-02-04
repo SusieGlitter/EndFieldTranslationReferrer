@@ -1,0 +1,22 @@
+{
+  "21": {
+    "canReport": false,
+    "isSocialBuilding": true,
+    "nodeType": "Battle"
+  },
+  "41": {
+    "canReport": false,
+    "isSocialBuilding": true,
+    "nodeType": "DepositBeacon"
+  },
+  "42": {
+    "canReport": true,
+    "isSocialBuilding": true,
+    "nodeType": "Sign"
+  },
+  "15": {
+    "canReport": false,
+    "isSocialBuilding": true,
+    "nodeType": "TravelPole"
+  }
+}

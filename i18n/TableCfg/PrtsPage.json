@@ -1,0 +1,26 @@
+{
+  "text": {
+    "icon": "icon_entrance_knowledge",
+    "name": {
+      "id": 7480625240187265310,
+      "text": null
+    },
+    "pageType": "text"
+  },
+  "document": {
+    "icon": "icon_entrance_pivot",
+    "name": {
+      "id": -7905652149614640230,
+      "text": null
+    },
+    "pageType": "document"
+  },
+  "multi_media": {
+    "icon": "icon_entrance_audio",
+    "name": {
+      "id": -2047195729772669394,
+      "text": null
+    },
+    "pageType": "multi_media"
+  }
+}
