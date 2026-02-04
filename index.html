@@ -8,7 +8,6 @@
     <style>
         /* 颜色变量定义 */
         :root {
-            /* 日间模式变量 */
             --primary-color: #409eff;
             --bg-color: #f5f7fa;
             --card-bg: #ffffff;
@@ -22,7 +21,6 @@
         }
 
         [data-theme='dark'] {
-            /* 夜间模式变量 */
             --bg-color: #1a1b1e;
             --card-bg: #25262b;
             --text-main: #c1c2c5;
@@ -48,7 +46,6 @@
 
         .container { max-width: 1100px; margin: 0 auto; flex: 1; width: 100%; }
 
-        /* 模式切换按钮 */
         .theme-toggle {
             position: fixed; top: 20px; right: 20px;
             z-index: 1000; background: var(--card-bg);
@@ -103,9 +100,7 @@
 
         .result-header { padding: 20px; display: flex; align-items: center; }
         
-        .copyable {
-            position: relative; cursor: copy; transition: color 0.2s;
-        }
+        .copyable { position: relative; cursor: copy; transition: color 0.2s; }
         .copyable:hover { color: var(--primary-color); }
         .copyable:hover::after {
             content: "点击复制"; position: absolute; bottom: -20px; left: 0;
@@ -157,19 +152,19 @@
 <body>
 
 <div id="app" v-cloak class="container">
-    <button class="theme-toggle" @click="toggleTheme" :title="isDark ? '切换到日间模式' : '切换到夜间模式'">
+    <button class="theme-toggle" @click="toggleTheme">
         {{ isDark ? '☀️' : '🌙' }}
     </button>
 
     <header>
         <h1>Endfield Translation Referrer</h1>
-        <div class="subtitle">终端翻译参考工具 · 数据自动同步</div>
+        <div class="subtitle">终端翻译参考工具 · 翻译数据对比</div>
     </header>
 
     <div class="config-card">
         <div class="config-row">
             <div class="config-label">源语言</div>
-            <select v-model="sourceLang" @change="refreshSearch">
+            <select v-model="sourceLang" @focus="prevLang = sourceLang" @change="handleSourceChange">
                 <option v-for="l in allLangs" :key="l.code" :value="l.code">{{ l.name }} ({{ l.code }})</option>
             </select>
         </div>
@@ -228,7 +223,7 @@
 </footer>
 
 <script>
-const { createApp, ref, computed, onMounted, watch } = Vue;
+const { createApp, ref, computed, onMounted } = Vue;
 
 createApp({
     setup() {
@@ -238,6 +233,7 @@ createApp({
         const isDark = ref(localStorage.getItem('theme') === 'dark');
         const allLangs = ref([]);
         const sourceLang = ref('CN');
+        const prevLang = ref('CN'); // 记录切换前的源语言
         const targetLangs = ref(['TC', 'EN', 'JP', 'KR']);
         const query = ref('');
         const dataCache = ref({});
@@ -258,9 +254,7 @@ createApp({
         };
 
         const init = async () => {
-            // 初始化主题
             document.documentElement.setAttribute('data-theme', isDark.value ? 'dark' : 'light');
-            
             loading.value = true;
             for (const code of LANG_CODES) {
                 try {
@@ -304,6 +298,19 @@ createApp({
             if (filteredResults.value.length > 0) expandedIds.value.add(filteredResults.value[0].id);
         };
 
+        const handleSourceChange = () => {
+            // 逻辑：如果旧语言不在目标列表里，且不是新选的源语言，则加入目标列表
+            if (prevLang.value && prevLang.value !== sourceLang.value) {
+                if (!targetLangs.value.includes(prevLang.value)) {
+                    targetLangs.value.push(prevLang.value);
+                }
+            }
+            // 逻辑：目标语言中移除当前新选的源语言（如果有的话）
+            targetLangs.value = targetLangs.value.filter(t => t !== sourceLang.value);
+            
+            search();
+        };
+
         const copy = (text) => {
             if (!text || text === "---") return;
             navigator.clipboard.writeText(text).then(() => {
@@ -326,18 +333,13 @@ createApp({
             return text.replace(new RegExp(`(${escaped})`, 'gi'), '<span class="highlight">$1</span>');
         };
 
-        const refreshSearch = () => {
-            targetLangs.value = targetLangs.value.filter(t => t !== sourceLang.value);
-            search();
-        };
-
         onMounted(init);
 
         return {
-            isDark, toggleTheme, allLangs, sourceLang, targetLangs, query, loading, 
+            isDark, toggleTheme, allLangs, sourceLang, prevLang, targetLangs, query, loading, 
             filteredResults, expandedIds, visibleCount, visibleResults, hasMore, loadMore, 
             showToast, copy, onInput, toggleExpand, getTranslation, getLangName, 
-            highlightText, refreshSearch
+            highlightText, handleSourceChange
         };
     }
 }).mount('#app');
