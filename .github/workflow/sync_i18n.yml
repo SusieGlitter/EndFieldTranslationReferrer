@@ -16,14 +16,14 @@ jobs:
 
       - name: Clone source repo
         run: |
-          git clone --depth 1 https://github.com/XiaBei-cy/EndfieldData.git source_repo
+          git clone --depth 1 https://github.com/luosky/EndfieldDataRmxLinux.git source_repo
 
-      - name: Copy i18n folder
+      - name: Copy I18n JSON files
         run: |
           # 确保目标文件夹存在
           mkdir -p i18n
-          # 强制将源仓库的 i18n 内容覆盖到你本地的 i18n 文件夹
-          cp -r source_repo/i18n/* ./i18n/
+          # 只拷贝 source_repo/TableCfg 中以 I18n 开头的 JSON 文件
+          find source_repo/TableCfg -maxdepth 1 -type f -name 'I18n*.json' -exec cp -f {} ./i18n/ \;
           # 删除临时克隆的目录
           rm -rf source_repo
 
