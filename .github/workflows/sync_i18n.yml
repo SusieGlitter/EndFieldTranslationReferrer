@@ -3,37 +3,75 @@ name: Sync i18n Folder
 on:
   schedule:
     - cron: '0 0 * * *' # 每天北京时间上午 8 点自动运行
-  workflow_dispatch:   # 允许你在 GitHub 页面手动点击运行
+  workflow_dispatch:   # 允许手动运行
+  push:
+    paths:
+      - '.source'      # 当 .source 文件被上一个 Action 修改时自动触发
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - name: Checkout your repo
+      - name: Checkout Current Repo
         uses: actions/checkout@v4
         with:
+          # 必须拉取当前仓库以读取 .source 文件
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Clone source repo
+      - name: Read Source Configuration
+        id: read_config
         run: |
-          git clone --depth 1 https://github.com/rmxlinux/EndfieldData.git source_repo
+          # 读取 .source 内容并去除空白
+          CONFIG_STR=$(cat .source | xargs)
+          echo "Full config: $CONFIG_STR"
+          
+          # 提取仓库名（前两段，例如 rmxlinux/EndfieldData）
+          REPO_NAME=$(echo "$CONFIG_STR" | cut -d'/' -f1,2)
+          # 提取路径（剩余部分，例如 TableCfg）
+          INTERNAL_PATH=$(echo "$CONFIG_STR" | cut -d'/' -f3-)
+          
+          echo "repo=$REPO_NAME" >> $GITHUB_OUTPUT
+          echo "path=$INTERNAL_PATH" >> $GITHUB_OUTPUT
+        # 给这一步设置 ID 方便后续引用
+
+      - name: Clone External Source Repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ steps.read_config.outputs.repo }}
+          path: source_repo
+          # 这里不指定 token 默认可以克隆所有公开仓库
 
       - name: Copy I18n JSON files
         run: |
           # 确保目标文件夹存在
           mkdir -p i18n
-          # 只拷贝 source_repo/TableCfg 中以 I18n 开头的 JSON 文件
-          find source_repo/TableCfg -maxdepth 1 -type f -name 'I18n*.json' -exec cp -f {} ./i18n/ \;
-          # 删除临时克隆的目录
-          rm -rf source_repo
+          
+          # 从解析出的动态路径中拷贝文件
+          # 使用 steps.read_config.outputs.path 定位目录
+          TARGET_DIR="source_repo/${{ steps.read_config.outputs.path }}"
+          
+          echo "Copying from $TARGET_DIR"
+          
+          if [ -d "$TARGET_DIR" ]; then
+            find "$TARGET_DIR" -maxdepth 1 -type f -name 'I18n*.json' -exec cp -f {} ./i18n/ \;
+          else
+            echo "::error::Directory $TARGET_DIR does not exist in source repo!"
+            exit 1
+          fi
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
           git add i18n/
-          # 只有在有变动时才提交，防止报错
-          git diff-index --quiet HEAD || git commit -m "chore: sync i18n folder from XiaBei-cy/EndfieldData"
-          git push
+          # 动态生成提交信息
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore: sync i18n from ${{ steps.read_config.outputs.repo }} path ${{ steps.read_config.outputs.path }}"
+            git push
+          else
+            echo "No changes to sync."
+          fi
