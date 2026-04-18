@@ -6,7 +6,7 @@ on:
   workflow_dispatch:   # 允许手动运行
   push:
     paths:
-      - '.source'      # 当 .source 文件被上一个 Action 修改时自动触发
+      - '.source'      # 当 .source 文件被修改时触发
 
 jobs:
   sync:
@@ -18,60 +18,72 @@ jobs:
       - name: Checkout Current Repo
         uses: actions/checkout@v4
         with:
-          # 必须拉取当前仓库以读取 .source 文件
+          # 获取整个仓库以运行本地的 apply_hotfix.py
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Read Source Configuration
         id: read_config
         run: |
-          # 读取 .source 内容并去除空白
           CONFIG_STR=$(cat .source | xargs)
           echo "Full config: $CONFIG_STR"
           
-          # 提取仓库名（前两段，例如 rmxlinux/EndfieldData）
           REPO_NAME=$(echo "$CONFIG_STR" | cut -d'/' -f1,2)
-          # 提取路径（剩余部分，例如 TableCfg）
           INTERNAL_PATH=$(echo "$CONFIG_STR" | cut -d'/' -f3-)
           
           echo "repo=$REPO_NAME" >> $GITHUB_OUTPUT
           echo "path=$INTERNAL_PATH" >> $GITHUB_OUTPUT
-        # 给这一步设置 ID 方便后续引用
 
       - name: Clone External Source Repo
         uses: actions/checkout@v4
         with:
           repository: ${{ steps.read_config.outputs.repo }}
           path: source_repo
-          # 这里不指定 token 默认可以克隆所有公开仓库
 
-      - name: Copy I18n JSON files
+      - name: Update i18n Folder
         run: |
-          # 确保目标文件夹存在
+          # 1. 使用 source 仓库替换 i18n 内容
+          # 先清理旧的 i18n 文件夹，确保它是 source 的纯净副本
+          rm -rf i18n
           mkdir -p i18n
           
-          # 从解析出的动态路径中拷贝文件
-          # 使用 steps.read_config.outputs.path 定位目录
           TARGET_DIR="source_repo/${{ steps.read_config.outputs.path }}"
-          
-          echo "Copying from $TARGET_DIR"
+          echo "Syncing from $TARGET_DIR"
           
           if [ -d "$TARGET_DIR" ]; then
+            # 拷贝所有符合条件的 JSON 文件
             find "$TARGET_DIR" -maxdepth 1 -type f -name 'I18n*.json' -exec cp -f {} ./i18n/ \;
           else
             echo "::error::Directory $TARGET_DIR does not exist in source repo!"
             exit 1
           fi
-
-      - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add i18n/
-          # 动态生成提交信息
+          # 删除临时克隆的目录，保持环境整洁
+          rm -rf source_repo
+
+      - name: Run Hotfix Script
+        run: |
+          # 确保环境中有 Python（Ubuntu runner 默认自带）
+          # 运行本地仓库中的 apply_hotfix.py
+          if [ -f "apply_hotfix.py" ]; then
+            python3 apply_hotfix.py
+          else
+            echo "::error::apply_hotfix.py not found in root directory!"
+            exit 1
+          fi
+
+      - name: Commit and Push All Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 添加 i18n 和 data 文件夹的改动
+          git add i18n/ data/
+          
+          # 检查是否有任何改动
           if ! git diff-index --quiet HEAD; then
-            git commit -m "chore: sync i18n from ${{ steps.read_config.outputs.repo }} path ${{ steps.read_config.outputs.path }}"
+            git commit -m "chore: sync i18n and apply hotfix from ${{ steps.read_config.outputs.repo }}"
             git push
           else
-            echo "No changes to sync."
+            echo "No changes detected after sync and hotfix."
           fi
