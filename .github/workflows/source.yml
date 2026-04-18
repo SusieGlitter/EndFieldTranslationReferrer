@@ -25,25 +25,40 @@ jobs:
         shell: bash
         run: |
           RAW_INPUT=$(echo "${{ github.event.comment.body }}" | xargs)
+          
+          # 严格校验：必须以 https://github.com/ 开头
+          if [[ ! "$RAW_INPUT" =~ ^https://github\.com/.* ]]; then
+            echo "::error::非法输入！评论必须以 'https://github.com/' 开头。"
+            exit 1
+          fi
+
+          # 解析逻辑
           if [[ "$RAW_INPUT" == *"github.com"* ]]; then
+            # 提取 仓库全名 和 路径
             REPO_FULL=$(echo "$RAW_INPUT" | sed -E 's|.*github.com/([^/]+/[^/]+)/.*|\1|')
             SUB_PATH=$(echo "$RAW_INPUT" | sed -E 's|.*/tree/[^/]+/(.*)|\1|')
             FINAL_STR="${REPO_FULL}/${SUB_PATH}"
           else
+            # 理论上由于上面的正则校验，这里不会被触发，但作为兜底保留
             FINAL_STR="$RAW_INPUT"
           fi
-          echo "$FINAL_STR" > .source
+
           echo "final_value=$FINAL_STR" >> $GITHUB_OUTPUT
+          echo "$FINAL_STR" > .source
 
       - name: Commit and Push
         id: commit_step
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions[bot]"
+          
+          # 显式重写远程地址以解决 403 权限问题
+          git remote set-url origin https://x-access-token:${{ secrets.MY_PAT }}@github.com/${{ github.repository }}.git
+          
           git add .source
           if ! git diff --cached --quiet; then
             git commit -m "chore: update source to ${{ steps.extract.outputs.final_value }}"
-            git push
+            git push origin main
             echo "commit_sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
             echo "pushed=true" >> $GITHUB_OUTPUT
           else
