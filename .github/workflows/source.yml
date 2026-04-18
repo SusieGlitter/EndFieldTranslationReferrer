@@ -1,0 +1,75 @@
+name: Comment Source Updater
+
+on:
+  issue_comment:
+    types: [created, edited]
+
+jobs:
+  update-source:
+    runs-on: ubuntu-latest
+    if: github.event.issue.number == 1
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check Membership
+        id: check_member
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const org = 'MaaEnd';
+            const username = context.payload.comment.user.login;
+            try {
+              await github.rest.orgs.checkMembershipForUser({ org, username });
+              return true;
+            } catch (error) {
+              return false;
+            }
+
+      - name: Validate Path and Update .source
+        id: validate # 给这一步添加 ID
+        if: steps.check_member.outputs.result == 'true'
+        shell: bash
+        run: |
+          INPUT_PATH=$(echo "${{ github.event.comment.body }}" | xargs)
+          
+          if [ -e "$INPUT_PATH" ]; then
+            SOURCE_DIR="$INPUT_PATH"
+            if [ -f "$SOURCE_DIR" ]; then
+              SOURCE_DIR=$(dirname "$SOURCE_DIR")
+            fi
+            
+            if ls "$SOURCE_DIR"/I18n*.json 1> /dev/null 2>&1; then
+              echo "$SOURCE_DIR" > .source
+              # 将处理后的路径设为输出，供下一步使用
+              echo "final_path=$SOURCE_DIR" >> $GITHUB_OUTPUT
+              echo "confirmed=true" >> $GITHUB_OUTPUT
+            else
+              echo "::error::No I18n*.json files found in $SOURCE_DIR"
+              exit 1
+            fi
+          else
+            echo "::error::Path '$INPUT_PATH' does not exist."
+            exit 1
+          fi
+
+      - name: Commit and Push .source
+        # 使用上一步的 output 进行判断
+        if: steps.validate.outputs.confirmed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .source
+          
+          # 检查是否有实际内容变更
+          if ! git diff --cached --quiet; then
+            # 使用 steps.validate.outputs.final_path 获取路径
+            git commit -m "chore: update .source to ${{ steps.validate.outputs.final_path }}"
+            git push
+          else
+            echo "No changes detected in .source file."
+          fi
