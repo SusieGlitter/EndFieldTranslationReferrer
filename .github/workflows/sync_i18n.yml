@@ -18,7 +18,7 @@ jobs:
 
       - name: Clone source repo
         run: |
-          git clone --depth 1 https://github.com/luosky/EndfieldDataRmxLinux.git source_repo
+          git clone --depth 1 https://github.com/rmxlinux/EndfieldData.git source_repo
 
       - name: Copy I18n JSON files
         run: |
