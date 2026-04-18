@@ -7,7 +7,6 @@ on:
 jobs:
   update-source:
     runs-on: ubuntu-latest
-    # 仅在 Issue #1 中触发
     if: github.event.issue.number == 1
     
     permissions:
@@ -19,8 +18,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          # 请确保在仓库 Secrets 中配置了名为 MY_PAT 的变量
-          # 变量内容为您刚才生成的那个 Token (github_pat_11BEYV...C7DOCEdo)
           token: ${{ secrets.MY_PAT }}
 
       - name: Extract Repo and Path
@@ -28,19 +25,13 @@ jobs:
         shell: bash
         run: |
           RAW_INPUT=$(echo "${{ github.event.comment.body }}" | xargs)
-          
           if [[ "$RAW_INPUT" == *"github.com"* ]]; then
-            # 提取 仓库全名 (owner/repo) 和 路径 (path/after/tree/branch)
             REPO_FULL=$(echo "$RAW_INPUT" | sed -E 's|.*github.com/([^/]+/[^/]+)/.*|\1|')
             SUB_PATH=$(echo "$RAW_INPUT" | sed -E 's|.*/tree/[^/]+/(.*)|\1|')
             FINAL_STR="${REPO_FULL}/${SUB_PATH}"
-            echo "Parsed URL: $FINAL_STR"
           else
-            # 如果输入不是 URL，则视为本地/手动路径
             FINAL_STR="$RAW_INPUT"
-            echo "Used Raw Input: $FINAL_STR"
           fi
-
           echo "$FINAL_STR" > .source
           echo "final_value=$FINAL_STR" >> $GITHUB_OUTPUT
 
@@ -50,54 +41,37 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions[bot]"
           git add .source
-          
           if ! git diff --cached --quiet; then
             git commit -m "chore: update source to ${{ steps.extract.outputs.final_value }}"
-            # 使用 PAT 推送，以触发后续的 Sync i18n 工作流
             git push
             echo "commit_sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
             echo "pushed=true" >> $GITHUB_OUTPUT
           else
             echo "pushed=false" >> $GITHUB_OUTPUT
-            echo "No change detected in .source."
           fi
 
-      - name: Reply to Comment (Enhanced Report)
+      - name: Reply to Comment
         if: steps.commit_step.outputs.pushed == 'true'
         uses: actions/github-script@v7
         with:
           script: |
-            const commitSha = '${{ steps.commit_step.outputs.commit_sha }}';
-            const runId = context.runId;
-            const repoUrl = `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}`;
-            const shortSha = commitSha.substring(0, 7);
+            const sha = '${{ steps.commit_step.outputs.commit_sha }}';
+            const val = '${{ steps.extract.outputs.final_value }}';
+            const run = `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${context.runId}`;
+            const cLink = `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/commit/${sha}`;
             
-            const commitLink = `${repoUrl}/commit/${commitSha}`;
-            const actionLink = `${repoUrl}/actions/runs/${runId}`;
-            
-            const body = `### 🚀 资源同步配置已成功更新
+            let body = "### 🚀 资源同步配置已成功更新\n\n";
+            body += "| 属性 | 内容 |\n| :--- | :--- |\n";
+            body += `| **状态** | 🟢 已就绪 |\n`;
+            body += `| **数据源** | \`${val}\` |\n`;
+            body += `| **提交** | [\`${sha.substring(0, 7)}\`](${cLink}) |\n`;
+            body += `| **日志** | [查看流水线 ↗️](${run}) |\n\n`;
+            body += "---\n> **💡 提示**: 同步任务已自动触发。\n\n";
+            body += "<details><summary>🛠 运行详情</summary>\n\n";
+            body += `- 触发用户: @${context.payload.comment.user.login}\n`;
+            body += `- 运行编号: ${context.runId}\n</details>`;
 
-| 属性 | 内容 |
-| :--- | :--- |
-| **状态** | 🟢 已就绪 (Ready) |
-| **数据源** | \`${{ steps.extract.outputs.final_value }}\` |
-| **提交哈希** | [\`${shortSha}\`](${commitLink}) |
-| **同步任务** | [查看流水线日志 ↗️](${actionLink}) |
-
----
-> **💡 提示**: 同步任务已自动触发。您可以点击上面的“流水线日志”查看 i18n 文件的拷贝进度。
-
-<details>
-<summary>🛠 运行详情 (Technical Details)</summary>
-
-- **触发用户**: @${context.payload.comment.user.login}
-- **更新文件**: \`.source\`
-- **工作流 ID**: \`${context.workflow}\`
-- **运行编号**: \`${runId}\`
-
-</details>`;
-            
-            await github.rest.issues.createComment({
+            github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
